@@ -1,4 +1,23 @@
 {
-    "presets": ["@babel/preset-react", "@babel/preset-env"],
-    "plugins": ["@babel/plugin-transform-react-jsx"]
+  "babelrc": false,
+  "configFile": false,
+  "compact": false,
+  "presets": [
+    [
+      "C:\\Users\\AlonsoMorenasDiaz\\Desktop\\ctica\\smitom\\node_modules\\gatsby\\node_modules\\babel-preset-gatsby\\dependencies.js",
+      {
+        "stage": "build-javascript"
+      }
+    ]
+  ],
+  "sourceMaps": false,
+  "filename": "C:\\Users\\AlonsoMorenasDiaz\\Desktop\\ctica\\smitom\\node_modules\\react-native-vector-icons\\lib\\create-icon-set.js",
+  "sourceFileName": "C:\\Users\\AlonsoMorenasDiaz\\Desktop\\ctica\\smitom\\node_modules\\react-native-vector-icons\\lib\\create-icon-set.js",
+  "caller": {
+    "name": "babel-loader",
+    "target": "web",
+    "supportsStaticESM": true,
+    "supportsDynamicImport": true,
+    "supportsTopLevelAwait": true
   }
+}

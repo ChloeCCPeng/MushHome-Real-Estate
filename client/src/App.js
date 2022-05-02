@@ -52,7 +52,7 @@
 // import React, { useEffect, useState } from "react";
 import { Switch, Route, useHistory } from "react-router-dom";
 import Home from "./components/Home";
-// import Login from "./components/Login";
+import Login from "./components/Login";
 import Account from "./components/Account";
 import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
@@ -61,18 +61,18 @@ import './App.css';
 
 function App() {
 
-  // const [user, setUser] = useState(null);
-  // const history = useHistory()
+  const [user, setUser] = useState(null);
+  const history = useHistory()
 
-  // useEffect(() => {
-  //   // auto-login
-  //   fetch("/me").then((r) => {
-  //     if (r.ok) {
-  //       r.json().then((user) => setUser(user));
-  //       history.push("/")
-  //     };
-  //   });
-  // }, []);
+  useEffect(() => {
+    // auto-login
+    fetch("/me").then((r) => {
+      if (r.ok) {
+        r.json().then((user) => setUser(user));
+        history.push("/")
+      };
+    });
+  }, []);
 
   return (
     <>
@@ -80,9 +80,9 @@ function App() {
         <Route exact path="/">
           <Home /> 
         </Route>
-        {/* <Route exact path="/login">
+        <Route exact path="/login">
           <Login onLogin={setUser} />
-        </Route> */}
+        </Route>
         <Route exact path="/account">
           <Account /> 
         </Route>

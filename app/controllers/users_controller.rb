@@ -6,12 +6,16 @@ class UsersController < ApplicationController
   
   def create
     user = User.create!(user_params)
-    render json: user
+    session[:user_id] = user.id
+    render json: user, status: :created
   end
 
   def show
-    user = find_user
-    render json: user
+    if session[:user_id]
+        render json: User.find(session[:user_id]), status: :created
+    else
+        render json: {error: "Not logged in"}, status: :unauthorized
+    end
   end
 
   def update
@@ -23,7 +27,7 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.permit(:email, :password, :firstName, :lastName, :phoneNumber)
+    params.permit(:email, :password, :firstName, :lastName, :phoneNumber, :password_confirmation)
   end
 
   def find_user
