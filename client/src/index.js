@@ -1,22 +1,3 @@
-// import React from 'react';
-// import ReactDOM from 'react-dom';
-// // import './index.css';
-// import App from './App';
-// import reportWebVitals from './reportWebVitals';
-
-// ReactDOM.render(
-//   <React.StrictMode>
-//     <App />
-//   </React.StrictMode>,
-//   document.getElementById('root')
-// );
-
-// // If you want to start measuring performance in your app, pass a function
-// // to log results (for example: reportWebVitals(console.log))
-// // or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-// reportWebVitals();
-
-
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -33,15 +14,4 @@ root.render(
   // document.getElementB›yId('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
-
-
-// const root = ReactDOM.createRoot(document.getElementById('root'));
-// root.render(
-//     <Router>   
-//     try to use this method instead of reactdom.render
-// 3:25
-// also instead of import ReactDom from 'react-dom'    put  import ReactDOM from 'react-dom/client';
