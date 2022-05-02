@@ -1,12 +1,15 @@
 import React from 'react'
+import PersonalInfo from './PersonalInfo'
+import MyListing from './MyListing'
+import MyWatchList from './MyWatchList'
 
 function Me() {
   return (
     <div>
         <h2>My Account</h2>
-        <h2>Personal Info</h2>
-        <h2>My Listing</h2>
-        <h2>My Watchlist</h2>
+        <PersonalInfo />
+        <MyListing />
+        <MyWatchList />
     </div>
   )
 }
