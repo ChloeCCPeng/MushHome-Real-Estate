@@ -2,7 +2,9 @@ import React from 'react'
 
 function Listing() {
   return (
-    <div>Listing</div>
+    <div>
+      
+    </div>
   )
 }
 

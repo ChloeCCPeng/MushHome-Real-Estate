@@ -4311,3 +4311,13 @@ Processing by UsersController#show as HTML
 Completed 404 Not Found in 31ms (Views: 2.9ms | ActiveRecord: 5.4ms | Allocations: 9104)
 
 
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-02 12:42:59 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/me" for 127.0.0.1 at 2022-05-02 12:43:39 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 401 Unauthorized in 6ms (Views: 1.2ms | Allocations: 512)
+
+

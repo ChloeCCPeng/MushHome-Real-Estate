@@ -58,19 +58,19 @@ import Account from "./components/Account";
 import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 // import Search from "./components/Search";
-import './App.css';
+// import './App.css';
 
 function App() {
   const [state, setState] = useState();
   const [user, setUser] = useState(null);
-  const history = useHistory();
+  // const history = useHistory();
 
   useEffect(() => {
     // auto-login
     fetch("/me").then((r) => {
       if (r.ok) {
         r.json().then((user) => setUser(user));
-        history.push("/")
+        // history.push("/")
       };
     });
   }, []);
