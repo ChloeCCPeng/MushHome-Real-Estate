@@ -24,28 +24,30 @@
   
 //     // if (!user) return <Login onLogin={setUser} />;
   
-//     return (
-//       <BrowserRouter>
-//         {/* <NavBar user={user} setUser={setUser}/> */}
-//         <Routes>
-//           <Route exact path="/">
-//             <Home /> 
-//           </Route>
-//           <Route exact path="/login">
-//             <Login onLogin={setUser} />
-//           </Route>
-//           {/* <Route path="/success">
-//             <Success />
-//           </Route>
-//           <Route path="/canceled">
-//             <Canceled />
-//           </Route>
-//           <Route path="/checkout">
-//             <Checkout />
-//           </Route> */}
-//         </Routes>
-//       </BrowserRouter>
-//     );
+// return (
+//   <>
+//     <Routes>
+//       <Route exact path="/">
+//         <Home /> 
+//       </Route>
+//       <Route exact path="/login">
+//         <Login onLogin={setUser} />
+//       </Route>
+//       <Route exact path="/account">
+//         <Account /> 
+//       </Route>
+//       <Route exact path="/listing">
+//         <Listing /> 
+//       </Route>
+//       <Route exact path="/houseMarketReport">
+//         <HouseMarketReport /> 
+//       </Route>
+//       {/* <Route exact path="/search">
+//         <Search /> 
+//       </Route> */}
+//     </Routes>
+//   </>
+// );
 //   };
 //   export default App;
 
@@ -78,24 +80,12 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/">
-          <Home /> 
-        </Route>
-        <Route exact path="/login">
-          <Login onLogin={setUser} />
-        </Route>
-        <Route exact path="/account">
-          <Account /> 
-        </Route>
-        <Route exact path="/listing">
-          <Listing /> 
-        </Route>
-        <Route exact path="/houseMarketReport">
-          <HouseMarketReport /> 
-        </Route>
-        {/* <Route exact path="/search">
-          <Search /> 
-        </Route> */}
+        <Route path="/" element={<Home />}/> 
+        <Route path="/login" element={<Login onLogin={setUser} />}/>
+        <Route path="/account" element={<Account /> }/>
+        <Route path="/listing" element={<Listing /> }/>
+        <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
+        {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>
   );
