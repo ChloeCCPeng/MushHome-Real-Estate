@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 // // import { button, error, input, field, label, Textarea } from "../styles";
 // // import inputlabel from '@mui/material/inputlabel';
-// import { useHistory } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 // function SignUpForm({ onLogin }) {
 // const [username, setUsername] = useState("");
@@ -13,7 +13,7 @@
 // const [isLoading, setIsLoading] = useState(false);
 // const [seller, setSeller] = useState(false)
 
-// const history = useHistory();
+// const history = useNavigate();
 
 // function handleSellerTrue() {
 // setSellerTrue(!sellerTrue)
@@ -122,7 +122,7 @@
 import React, { useState } from "react";
 import { Button, Error, Input, FormField, Label, Textarea } from "../styles";
 import InputLabel from '@mui/material/InputLabel';
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 function SignUpForm({ onLogin }) {
   const [username, setUsername] = useState("");
@@ -131,7 +131,7 @@ function SignUpForm({ onLogin }) {
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   
-  const history = useHistory();
+  const history = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();

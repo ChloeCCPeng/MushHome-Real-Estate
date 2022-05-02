@@ -4321,3 +4321,37 @@ Processing by UsersController#show as */*
 Completed 401 Unauthorized in 6ms (Views: 1.2ms | Allocations: 512)
 
 
+Started GET "/me" for 127.0.0.1 at 2022-05-02 13:00:36 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 401 Unauthorized in 1ms (Views: 0.5ms | Allocations: 353)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-02 13:00:54 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.04ms)
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | Allocations: 353)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-02 13:19:23 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.46ms)
+Completed 401 Unauthorized in 8ms (Views: 3.2ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-02 13:32:36 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.46ms)
+Completed 401 Unauthorized in 2ms (Views: 1.3ms | Allocations: 351)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-02 13:32:46 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 401 Unauthorized in 1ms (Views: 0.9ms | Allocations: 348)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-02 13:53:21 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  

@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from "react";
-// import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, useHistory } from "react-router-dom";
 // // import NavBar from "./NavBar";
 // import Login from "./components/Login";
 // import Home from "./components/Home";
@@ -27,7 +27,7 @@
 //     return (
 //       <BrowserRouter>
 //         {/* <NavBar user={user} setUser={setUser}/> */}
-//         <Switch>
+//         <Routes>
 //           <Route exact path="/">
 //             <Home /> 
 //           </Route>
@@ -43,7 +43,7 @@
 //           <Route path="/checkout">
 //             <Checkout />
 //           </Route> */}
-//         </Switch>
+//         </Routes>
 //       </BrowserRouter>
 //     );
 //   };
@@ -51,7 +51,7 @@
 
 // import React, { useEffect, useState } from "react";
 import React, { useEffect, useState } from "react";
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Routes, Route, useHistory } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Account from "./components/Account";
@@ -77,7 +77,7 @@ function App() {
 
   return (
     <>
-      <Switch>
+      <Routes>
         <Route exact path="/">
           <Home /> 
         </Route>
@@ -96,7 +96,7 @@ function App() {
         {/* <Route exact path="/search">
           <Search /> 
         </Route> */}
-      </Switch>
+      </Routes>
     </>
   );
 };
