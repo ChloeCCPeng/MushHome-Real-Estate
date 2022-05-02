@@ -1,7 +1,7 @@
 // import React, { useState } from "react";
 // // import { button, error, input, div, label } from "../styles/button";
 // import { createBrowserHistory } from 'history';
-// import { Link, useHistory, Redirect, Route } from "react-router-dom";
+// import { Link, useNavigate, Redirect, Route } from "react-router-dom";
 
 // function LoginForm({ onLogin }) {
 // const [username, setUsername] = useState("");
@@ -73,8 +73,9 @@
 
 import React, { useState } from "react";
 import { Button, Error, Input, FormField, Label } from "../styles";
-import { Link, useHistory } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import { Redirect, Route } from "react-router-dom";
+
 
 function LoginForm({ onLogin }) {
   const [username, setUsername] = useState("");
@@ -82,7 +83,7 @@ function LoginForm({ onLogin }) {
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const history = useHistory();
+  const history = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();

@@ -1,5 +1,5 @@
 // import React, { useEffect, useState } from "react";
-// import { BrowserRouter, Switch, Route, useHistory } from "react-router-dom";
+// import { BrowserRouter, Routes, Route, useHistory } from "react-router-dom";
 // // import NavBar from "./NavBar";
 // import Login from "./components/Login";
 // import Home from "./components/Home";
@@ -24,79 +24,69 @@
   
 //     // if (!user) return <Login onLogin={setUser} />;
   
-//     return (
-//       <BrowserRouter>
-//         {/* <NavBar user={user} setUser={setUser}/> */}
-//         <Switch>
-//           <Route exact path="/">
-//             <Home /> 
-//           </Route>
-//           <Route exact path="/login">
-//             <Login onLogin={setUser} />
-//           </Route>
-//           {/* <Route path="/success">
-//             <Success />
-//           </Route>
-//           <Route path="/canceled">
-//             <Canceled />
-//           </Route>
-//           <Route path="/checkout">
-//             <Checkout />
-//           </Route> */}
-//         </Switch>
-//       </BrowserRouter>
-//     );
+// return (
+//   <>
+//     <Routes>
+//       <Route exact path="/">
+//         <Home /> 
+//       </Route>
+//       <Route exact path="/login">
+//         <Login onLogin={setUser} />
+//       </Route>
+//       <Route exact path="/account">
+//         <Account /> 
+//       </Route>
+//       <Route exact path="/listing">
+//         <Listing /> 
+//       </Route>
+//       <Route exact path="/houseMarketReport">
+//         <HouseMarketReport /> 
+//       </Route>
+//       {/* <Route exact path="/search">
+//         <Search /> 
+//       </Route> */}
+//     </Routes>
+//   </>
+// );
 //   };
 //   export default App;
 
 // import React, { useEffect, useState } from "react";
 import React, { useEffect, useState } from "react";
-import { Switch, Route, useHistory } from "react-router-dom";
+import { Routes, Route, useHistory } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
 import Account from "./components/Account";
 import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 // import Search from "./components/Search";
-import './App.css';
+// import './App.css';
 
 function App() {
   const [state, setState] = useState();
   const [user, setUser] = useState(null);
-  const history = useHistory();
+  // const history = useHistory();
 
   useEffect(() => {
     // auto-login
     fetch("/me").then((r) => {
       if (r.ok) {
         r.json().then((user) => setUser(user));
-        history.push("/")
+        // history.push("/")
       };
     });
   }, []);
 
   return (
     <>
-      <Switch>
-        <Route exact path="/">
-          <Home /> 
-        </Route>
-        <Route exact path="/login">
-          <Login onLogin={setUser} />
-        </Route>
-        <Route exact path="/account">
-          <Account /> 
-        </Route>
-        <Route exact path="/listing">
-          <Listing /> 
-        </Route>
-        <Route exact path="/houseMarketReport">
-          <HouseMarketReport /> 
-        </Route>
-        {/* <Route exact path="/search">
-          <Search /> 
-        </Route> */}
-      </Switch>
+      <Routes>
+        <Route path="/" element={<Home />}/> 
+        <Route path="/login" element={<Login onLogin={setUser} />}/>
+        <Route path="/account" element={<Account /> }/>
+        <Route path="/listing" element={<Listing /> }/>
+        <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
+        {/* <Route path="/search" element={<Search /> }/> */}
+      </Routes>
     </>
   );
 };
