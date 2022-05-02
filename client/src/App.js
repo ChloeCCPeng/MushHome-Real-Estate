@@ -50,6 +50,7 @@
 //   export default App;
 
 // import React, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Switch, Route, useHistory } from "react-router-dom";
 import Home from "./components/Home";
 import Login from "./components/Login";
@@ -60,9 +61,9 @@ import HouseMarketReport from "./components/HouseMarketReport";
 import './App.css';
 
 function App() {
-
+  const [state, setState] = useState();
   const [user, setUser] = useState(null);
-  const history = useHistory()
+  const history = useHistory();
 
   useEffect(() => {
     // auto-login
