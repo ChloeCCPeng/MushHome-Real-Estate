@@ -11,6 +11,7 @@ import HouseMarketReport from "./components/HouseMarketReport";
 function App() {
   const [state, setState] = useState();
   const [user, setUser] = useState(null);
+
   // const history = useHistory();
 
   useEffect(() => {
