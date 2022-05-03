@@ -4747,3 +4747,7 @@ No serializer found for resource: #<House id: 1, address: "7884 Satterfield Ligh
 Completed 200 OK in 88ms (Views: 78.3ms | ActiveRecord: 5.1ms | Allocations: 51169)
 
 
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 09:30:34 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
