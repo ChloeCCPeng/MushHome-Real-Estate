@@ -9,8 +9,8 @@ import HouseMarketReport from "./components/HouseMarketReport";
 // import './App.css';
 
 function App() {
-  const [state, setState] = useState();
-  const [user, setUser] = useState(null);
+  // const [state, setState] = useState([]);
+  const [user, setUser] = useState("");
 
   // const history = useHistory();
 
@@ -27,7 +27,7 @@ function App() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />}/> 
+        <Route exact path="/" element={<Home />}/> 
         <Route path="/login" element={<Login onLogin={setUser} />}/>
         <Route path="/account" element={<Account /> }/>
         <Route path="/listing" element={<Listing /> }/>
