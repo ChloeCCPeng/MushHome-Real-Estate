@@ -4751,3 +4751,1589 @@ Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 09:30:34 -0
   
 ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
   
+Started GET "/me" for 127.0.0.1 at 2022-05-03 10:46:40 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.9ms)
+Completed 401 Unauthorized in 41ms (Views: 16.7ms | Allocations: 410)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 10:47:55 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.16ms)
+Completed 401 Unauthorized in 17ms (Views: 4.4ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 10:47:59 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.07ms)
+Completed 401 Unauthorized in 10ms (Views: 6.2ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 10:49:20 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.01ms)
+Completed 401 Unauthorized in 6ms (Views: 2.0ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 10:52:52 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.67ms)
+Completed 401 Unauthorized in 9ms (Views: 1.1ms | Allocations: 348)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 11:10:41 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/houses/" for ::1 at 2022-05-03 11:10:41 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (9.1ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (115.69ms)
+Completed 200 OK in 518ms (Views: 486.7ms | ActiveRecord: 56.6ms | Allocations: 14121)
+
+
+Started GET "/houses/" for ::1 at 2022-05-03 11:10:46 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 11:10:46 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.04ms)
+Completed 401 Unauthorized in 5ms (Views: 1.6ms | ActiveRecord: 0.0ms | Allocations: 382)
+
+
+  [1m[36mHouse Load (4.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (56.03ms)
+Completed 200 OK in 80ms (Views: 74.3ms | ActiveRecord: 4.6ms | Allocations: 11658)
+
+
+Started GET "/houses/" for ::1 at 2022-05-03 11:12:24 -0400
+Processing by HousesController#index as */*
+Started GET "/me" for 127.0.0.1 at 2022-05-03 11:12:24 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.54ms)
+  [1m[36mHouse Load (10.2ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+Completed 401 Unauthorized in 8ms (Views: 2.6ms | ActiveRecord: 0.0ms | Allocations: 364)
+
+
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (82.03ms)
+Completed 200 OK in 127ms (Views: 115.9ms | ActiveRecord: 10.2ms | Allocations: 11740)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 11:17:49 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (3.31ms)
+Completed 401 Unauthorized in 19ms (Views: 10.6ms | Allocations: 354)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 11:18:28 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/houses/" for ::1 at 2022-05-03 11:18:28 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (1.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (48.26ms)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 22.6ms | Allocations: 14093)
+
+
+Started GET "/houses/" for ::1 at 2022-05-03 11:18:32 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 11:18:32 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.04ms)
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+  [1m[36mHouse Load (1.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (20.13ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 1.3ms | Allocations: 11637)
+
+
+Started GET "/houses" for ::1 at 2022-05-03 11:18:53 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (0.9ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (19.67ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.9ms | Allocations: 10838)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 11:19:49 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (1.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (26.46ms)
+Completed 200 OK in 35ms (Views: 32.8ms | ActiveRecord: 1.6ms | Allocations: 10843)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 11:27:13 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (1.0ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (25.48ms)
+Completed 200 OK in 75ms (Views: 72.6ms | ActiveRecord: 10.8ms | Allocations: 14085)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 11:38:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 11:38:35 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/houses/" for ::1 at 2022-05-03 12:07:21 -0400
+Processing by HousesController#index as HTML
+  [1m[36mHouse Load (2.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (237.16ms)
+Completed 200 OK in 451ms (Views: 442.9ms | ActiveRecord: 15.2ms | Allocations: 14046)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:09:14 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 12:09:14 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.57ms)
+Completed 401 Unauthorized in 38ms (Views: 29.2ms | ActiveRecord: 0.0ms | Allocations: 463)
+
+
+  [1m[36mHouse Load (2.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (244.41ms)
+Completed 200 OK in 332ms (Views: 302.7ms | ActiveRecord: 2.6ms | Allocations: 11175)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-03 12:12:04 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:20:11 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 12:20:11 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.55ms)
+Processing by HousesController#index as */*
+Completed 401 Unauthorized in 20ms (Views: 5.2ms | Allocations: 525)
+
+
+  [1m[36mHouse Load (1.7ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (28.05ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 21.6ms | Allocations: 14370)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:20:56 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 12:20:56 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 458)
+
+
+  [1m[36mHouse Load (1.1ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (30.32ms)
+Completed 200 OK in 37ms (Views: 35.4ms | ActiveRecord: 1.1ms | Allocations: 11144)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:31:41 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 12:31:41 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (1.84ms)
+Completed 401 Unauthorized in 24ms (Views: 14.8ms | Allocations: 701)
+
+
+  [1m[36mHouse Load (1.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (70.64ms)
+Completed 200 OK in 187ms (Views: 171.2ms | ActiveRecord: 18.7ms | Allocations: 14698)
+
+
+Started GET "/houses/" for ::1 at 2022-05-03 12:50:04 -0400
+  [1m[35m (2.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by HousesController#index as HTML
+  [1m[36mHouse Load (1.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "7884 Satterfield Lights, Nickiville, SC 45154", lotSizeAcres: 3, lotSizeSquareFeet: 2668, associationFee: nil, listPrice: 544082, bathroomsTotal: 5, bedroomsTotal: 8, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 04:02:38.799681000 +0000", updated_at: "2022-05-03 04:02:38.799681000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (10.5ms)
+Completed 200 OK in 98ms (Views: 69.6ms | ActiveRecord: 18.3ms | Allocations: 54462)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:50:07 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (1.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (1.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 422 Unprocessable Entity in 294ms (Views: 1.2ms | ActiveRecord: 5.6ms | Allocations: 357370)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:50:17 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 8ms (Views: 0.4ms | ActiveRecord: 0.4ms | Allocations: 5693)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:50:37 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.4ms | ActiveRecord: 0.5ms | Allocations: 4811)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:52:10 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 7ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 6558)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:53:09 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 401 Unauthorized in 5ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 378)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 12:53:10 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "session"=>{"username"=>"", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.2ms | Allocations: 309)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column users.username does not exist
+LINE 1: SELECT "users".* FROM "users" WHERE "users"."username" = $1 ...
+                                            ^
+):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:53:14 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:53:19 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 12:53:30 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chlo", "password"=>"[FILTERED]", "session"=>{"username"=>"chlo", "password"=>"[FILTERED]"}}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 264)
+
+
+  
+ActiveRecord::StatementInvalid (PG::UndefinedColumn: ERROR:  column users.username does not exist
+LINE 1: SELECT "users".* FROM "users" WHERE "users"."username" = $1 ...
+                                            ^
+):
+  
+app/controllers/sessions_controller.rb:4:in `create'
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:53:54 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:54:00 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 13ms (Views: 0.4ms | ActiveRecord: 0.9ms | Allocations: 6531)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 12:54:05 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 12:54:32 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameters: :username, :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."email" IS NULL LIMIT $1[0m  [["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.07ms)
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 4785)
+
+
+  [1m[35m (1.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (2.0ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "ar_internal_metadata"."value" FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1[0m  [["key", "environment"]]
+  [1m[35m (95.7ms)[0m  [1m[35mDROP DATABASE IF EXISTS "react_rails_api_project_template_development"[0m
+  [1m[35m (34.8ms)[0m  [1m[35mDROP DATABASE IF EXISTS "react_rails_api_project_template_test"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "react_rails_api_project_template_development"[0m
+  [1m[35m (0.1ms)[0m  [1m[35mDROP DATABASE IF EXISTS "react_rails_api_project_template_test"[0m
+  [1m[35m (204.7ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_development" ENCODING = 'unicode'[0m
+  [1m[35m (67.3ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_test" ENCODING = 'unicode'[0m
+  [1m[35m (23.9ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (2.3ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1087325618115650655)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateUsers (20220429032014)
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (6.0ms)[0m  [1m[35mCREATE TABLE "users" ("id" bigserial primary key, "username" character varying, "password_digest" character varying, "seller" boolean, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (2.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032014"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateHouses (20220429032025)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (3.6ms)[0m  [1m[35mCREATE TABLE "houses" ("id" bigserial primary key, "address" character varying, "lotSizeAcres" integer, "lotSizeSquareFeet" integer, "associationFee" integer, "listPrice" integer, "bathroomsTotal" integer, "bedroomsTotal" integer, "mainLevelBathrooms" integer, "fireplacesTotal" integer, "fireplaceFeature" character varying, "garageSpaces" integer, "bathroomHalf" integer, "storiesTotal" integer, "publicRemarks" text, "livingArea" integer, "yearBuilt" integer, "yearBuiltDetails" text, "standardStatus" character varying, "propertyType" character varying, "propertySubType" character varying, "listingContractDate" date, "previousListPrice" integer, "originalListPrice" integer, "contingency" character varying, "numberOfUnitsTotal" integer, "listingTerms" character varying, "daysOnMarket" integer, "appliances" character varying, "roomsTotal" integer, "exteriorFeatures" character varying, "flooring" character varying, "foundationDetails" character varying, "frontageType" character varying, "gas" character varying, "accessibilityFeatures" character varying, "heating" character varying, "occupantType" character varying, "roadSurfaceType" character varying, "roof" character varying, "constructionMaterials" character varying, "sewer" character varying, "carportSpaces" integer, "openParkingYN" boolean, "laundryFeatures" character varying, "privateRemarks" text, "taxAssessedValue" integer, "taxAnnualAount" integer, "taxYear" character varying, "subdivisionName" character varying, "buyerFinancing" character varying, "homeWarrantyYN" boolean, "architecturalStyle" character varying, "comunityFeatures" character varying, "patioAndPorchFeatures" character varying, "otherStructures" character varying, "attachedGarage" boolean, "carportYN" boolean, "contigentDate" date, "associationYN" boolean, "associationName" character varying, "associationFeeFrequency" character varying, "associationFeeIncludes" text, "photo" character varying, "showingContactPhone" character varying, "showingContactName" character varying, "exclusions" text, "inclusions" text, "elementarySchool" character varying, "elementarySchoolDistrict" character varying, "middleOrJuniorSchool" character varying, "middleOrJuniorSchoolDistrict" character varying, "highSchool" character varying, "highSchoolDistrict" character varying, "garageYN" boolean, "levels" character varying, "builderName" character varying, "builderModel" character varying, "interiorFeatures" text, "greenEnergyEfficient" text, "walkScore" integer, "user_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032025"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateWatchlists (20220429032035)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.5ms)[0m  [1m[35mCREATE TABLE "watchlists" ("id" bigserial primary key, "address" character varying, "user_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032035"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateMessages (20220429032044)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (2.4ms)[0m  [1m[35mCREATE TABLE "messages" ("id" bigserial primary key, "conversation" text, "user_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032044"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateOffers (20220429032051)
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "offers" ("id" bigserial primary key, "amount" integer, "user_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032051"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateSells (20220429032353)
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.6ms)[0m  [1m[35mCREATE TABLE "sells" ("id" bigserial primary key, "seller_id" integer, "browser_id" integer, "created_at" timestamp(6) NOT NULL, "updated_at" timestamp(6) NOT NULL)[0m
+  [1m[36mActiveRecord::SchemaMigration Create (0.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20220429032353"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mActiveRecord::InternalMetadata Create (1.5ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2022-05-03 17:15:42.715018"], ["updated_at", "2022-05-03 17:15:42.715018"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(1087325618115650655)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mHouse Load (0.9ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  [1m[36mWatchlist Load (0.2ms)[0m  [1m[34mSELECT "watchlists".* FROM "watchlists"[0m
+  [1m[36mOffer Load (0.3ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.5ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Tod"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.7ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Tod"], ["password_digest", "$2a$12$zvoKs1Cvm.Q.bm/nOSUugeT9.PJqchU7nZgZdjyotPnmz3qZuVj2O"], ["created_at", "2022-05-03 17:15:43.430985"], ["updated_at", "2022-05-03 17:15:43.430985"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Harland"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Harland"], ["password_digest", "$2a$12$gb8fXhz0DeYX1FZO3vZkcua9dZaSEEKpxdoip8RxHGoFcmcGLIE76"], ["created_at", "2022-05-03 17:15:43.643385"], ["updated_at", "2022-05-03 17:15:43.643385"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Deeanna"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Deeanna"], ["password_digest", "$2a$12$Qzms.XRx54qws7NyCDfYeemixIm7QIXwp35uIDpsefdRUghwtK/ca"], ["created_at", "2022-05-03 17:15:43.857711"], ["updated_at", "2022-05-03 17:15:43.857711"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Vincenzo"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Vincenzo"], ["password_digest", "$2a$12$xoGqLwOmEzV1nd1093KnRuC76P3cdJcEoZbeEEHqB.r.F0zfxGI16"], ["created_at", "2022-05-03 17:15:44.081651"], ["updated_at", "2022-05-03 17:15:44.081651"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Hailey"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Hailey"], ["password_digest", "$2a$12$801F8chCNXb1fNb6kOfRvu4csxtUuV1cBz0fq01PrUFSk93CD1TAC"], ["created_at", "2022-05-03 17:15:44.294619"], ["updated_at", "2022-05-03 17:15:44.294619"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Hilton"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Hilton"], ["password_digest", "$2a$12$nR2ghnRvmVYJU6w/sECNXuwK8Q0rlmaZeT75chG7miJ5CCp/y0rju"], ["created_at", "2022-05-03 17:15:44.505910"], ["updated_at", "2022-05-03 17:15:44.505910"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Leo"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Leo"], ["password_digest", "$2a$12$JdQOwFczbKMtQnFKtvbmR.rrIfOCb/vhwzwQjJEqYzd2NRcXQgUiG"], ["created_at", "2022-05-03 17:15:44.718605"], ["updated_at", "2022-05-03 17:15:44.718605"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Sun"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Sun"], ["password_digest", "$2a$12$ZQWQQ9KmS8.j6hkbx8XP6uuqIduFE6x4VZYCwPm9c/HFExojJ26Xi"], ["created_at", "2022-05-03 17:15:44.934270"], ["updated_at", "2022-05-03 17:15:44.934270"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Vincenza"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Vincenza"], ["password_digest", "$2a$12$3iy7DbFOTwtjjZbOkIPwEOQ49H33kGHH5O343f1D0leC1wscQkEO6"], ["created_at", "2022-05-03 17:15:45.147947"], ["updated_at", "2022-05-03 17:15:45.147947"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Opal"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Opal"], ["password_digest", "$2a$12$EM3uOqC3shqt9oTETreKK.voyiEQ.zhu1PI6ydsca.yXpuDIySg.K"], ["created_at", "2022-05-03 17:15:45.361351"], ["updated_at", "2022-05-03 17:15:45.361351"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Ezra"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Ezra"], ["password_digest", "$2a$12$FR8E/95r2iwuYGw5pqZv.upuY/Tw6.fPMW9Ba9I18YztHpUNlN8L."], ["created_at", "2022-05-03 17:15:45.575809"], ["updated_at", "2022-05-03 17:15:45.575809"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Josef"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Josef"], ["password_digest", "$2a$12$u0Btd1UBRBkAYEEXh/QcrOMunRwPXTImf1jfOcxa1dzo/EBjHE9uK"], ["created_at", "2022-05-03 17:15:45.789010"], ["updated_at", "2022-05-03 17:15:45.789010"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Dwain"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Dwain"], ["password_digest", "$2a$12$mMnNyAkGOj26AyPzbAJbYOAjCXbe7ma8cPPSi0YT9GzQmsOccam52"], ["created_at", "2022-05-03 17:15:46.003023"], ["updated_at", "2022-05-03 17:15:46.003023"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Kelvin"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Kelvin"], ["password_digest", "$2a$12$jmRIpPsLC.dRMpAvrk49LuoqL5/cnWk4ytsF/MU8iRFor0MEc6MkK"], ["created_at", "2022-05-03 17:15:46.218058"], ["updated_at", "2022-05-03 17:15:46.218058"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Vannesa"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Vannesa"], ["password_digest", "$2a$12$gMWYNx3574CKZuOyUQuMfOFrSVG72vsx9ZW2pUOdlzBNkqLUP2UUK"], ["created_at", "2022-05-03 17:15:46.432723"], ["updated_at", "2022-05-03 17:15:46.432723"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Christoper"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Christoper"], ["password_digest", "$2a$12$ZFyHq1YiZiM.ZWIE5IKNiuvn5CNv5RBttn6S5EnZKClndMc98od/K"], ["created_at", "2022-05-03 17:15:46.647441"], ["updated_at", "2022-05-03 17:15:46.647441"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Kieth"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Kieth"], ["password_digest", "$2a$12$HPJqGShmno1QiW5NLsrESeDe7Pb3pwypEAicrLSeprwE8/OrSEuMO"], ["created_at", "2022-05-03 17:15:46.861352"], ["updated_at", "2022-05-03 17:15:46.861352"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Charmaine"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Charmaine"], ["password_digest", "$2a$12$VBYOUVJpFllGwyHl5oPKgONi1NpMmDLEvOxZ.njfVb9iw/hBAMb0i"], ["created_at", "2022-05-03 17:15:47.077879"], ["updated_at", "2022-05-03 17:15:47.077879"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Caitlin"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Caitlin"], ["password_digest", "$2a$12$ZCFnLg19j2ylH.5VHv8GY.r10R4ubusq/3KYFgqn49QL6jvSyrOl2"], ["created_at", "2022-05-03 17:15:47.290834"], ["updated_at", "2022-05-03 17:15:47.290834"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Kris"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Kris"], ["password_digest", "$2a$12$Bpz7MYFdySmxVZGCXDoH.OtrAUoxYRB/uuJVf2nomv1vK938662Lm"], ["created_at", "2022-05-03 17:15:47.504184"], ["updated_at", "2022-05-03 17:15:47.504184"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 18], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 6], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 10], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 5], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 16], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 15], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 20], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.4ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 20], ["created_at", "2022-05-03 17:15:47.653799"], ["updated_at", "2022-05-03 17:15:47.653799"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 14], ["created_at", "2022-05-03 17:15:47.658893"], ["updated_at", "2022-05-03 17:15:47.658893"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 13], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 13], ["created_at", "2022-05-03 17:15:47.663403"], ["updated_at", "2022-05-03 17:15:47.663403"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 9], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 9], ["created_at", "2022-05-03 17:15:47.667789"], ["updated_at", "2022-05-03 17:15:47.667789"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 14], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 14], ["created_at", "2022-05-03 17:15:47.672648"], ["updated_at", "2022-05-03 17:15:47.672648"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 8], ["created_at", "2022-05-03 17:15:47.677408"], ["updated_at", "2022-05-03 17:15:47.677408"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 7], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 7], ["created_at", "2022-05-03 17:15:47.681664"], ["updated_at", "2022-05-03 17:15:47.681664"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 8], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 8], ["created_at", "2022-05-03 17:15:47.685830"], ["updated_at", "2022-05-03 17:15:47.685830"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.9ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 2], ["created_at", "2022-05-03 17:15:47.690063"], ["updated_at", "2022-05-03 17:15:47.690063"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 12], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 12], ["created_at", "2022-05-03 17:15:47.695247"], ["updated_at", "2022-05-03 17:15:47.695247"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.5ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "694 Barrows Oval, Tianashire, WA 11275-4673"], ["lotSizeAcres", 17], ["lotSizeSquareFeet", 3868], ["listPrice", 356595], ["bathroomsTotal", 4], ["bedroomsTotal", 15], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.754254"], ["updated_at", "2022-05-03 17:15:47.754254"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 927 636 Russell Isle, Bogisichport, NC 03841"], ["lotSizeAcres", 23], ["lotSizeSquareFeet", 4029], ["listPrice", 3284423], ["bathroomsTotal", 9], ["bedroomsTotal", 15], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.759245"], ["updated_at", "2022-05-03 17:15:47.759245"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "32569 Dallas Keys, South Anjelica, UT 91635"], ["lotSizeAcres", 29], ["lotSizeSquareFeet", 4416], ["listPrice", 1223230], ["bathroomsTotal", 8], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.763592"], ["updated_at", "2022-05-03 17:15:47.763592"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 466 52963 Conn Field, New Maynardview, NE 17188"], ["lotSizeAcres", 32], ["lotSizeSquareFeet", 2108], ["listPrice", 3365972], ["bathroomsTotal", 6], ["bedroomsTotal", 2], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.768173"], ["updated_at", "2022-05-03 17:15:47.768173"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "5234 Rubie Lakes, Wuckertton, GA 43136-8267"], ["lotSizeAcres", 5], ["lotSizeSquareFeet", 2416], ["listPrice", 3011850], ["bathroomsTotal", 9], ["bedroomsTotal", 12], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.773385"], ["updated_at", "2022-05-03 17:15:47.773385"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 129 5308 McGlynn Route, Letafort, AL 56565"], ["lotSizeAcres", 9], ["lotSizeSquareFeet", 4403], ["listPrice", 1927957], ["bathroomsTotal", 5], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.777949"], ["updated_at", "2022-05-03 17:15:47.777949"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 425 731 Littel Plains, South Christianeberg, CT 10281-4439"], ["lotSizeAcres", 28], ["lotSizeSquareFeet", 1763], ["listPrice", 4375865], ["bathroomsTotal", 3], ["bedroomsTotal", 6], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.782642"], ["updated_at", "2022-05-03 17:15:47.782642"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "82184 Isabelle Forest, West Wendyfort, SD 35562-7592"], ["lotSizeAcres", 7], ["lotSizeSquareFeet", 2286], ["listPrice", 2824074], ["bathroomsTotal", 5], ["bedroomsTotal", 10], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.787351"], ["updated_at", "2022-05-03 17:15:47.787351"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 544 2149 Marta Coves, New Remediosmouth, NC 71288-0595"], ["lotSizeAcres", 5], ["lotSizeSquareFeet", 2037], ["listPrice", 3690821], ["bathroomsTotal", 10], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.792086"], ["updated_at", "2022-05-03 17:15:47.792086"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "93439 Mistie Center, South Ronaldborough, TX 89508"], ["lotSizeAcres", 35], ["lotSizeSquareFeet", 3543], ["listPrice", 3684438], ["bathroomsTotal", 6], ["bedroomsTotal", 1], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.796787"], ["updated_at", "2022-05-03 17:15:47.796787"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 873 4327 Tiffanie Common, Lahomahaven, CT 20598-2982"], ["lotSizeAcres", 26], ["lotSizeSquareFeet", 4198], ["listPrice", 2020943], ["bathroomsTotal", 7], ["bedroomsTotal", 3], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.801370"], ["updated_at", "2022-05-03 17:15:47.801370"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "64230 Heaney Forges, South Renda, LA 91666"], ["lotSizeAcres", 17], ["lotSizeSquareFeet", 2339], ["listPrice", 4237247], ["bathroomsTotal", 8], ["bedroomsTotal", 15], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.805517"], ["updated_at", "2022-05-03 17:15:47.805517"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 732 80117 Ronnie Knolls, South Morton, NY 79323-6016"], ["lotSizeAcres", 7], ["lotSizeSquareFeet", 2247], ["listPrice", 2807185], ["bathroomsTotal", 5], ["bedroomsTotal", 12], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.810397"], ["updated_at", "2022-05-03 17:15:47.810397"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "4963 Alec Trafficway, Lake Alvaro, VT 77499"], ["lotSizeAcres", 25], ["lotSizeSquareFeet", 4162], ["listPrice", 3997483], ["bathroomsTotal", 7], ["bedroomsTotal", 10], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.814883"], ["updated_at", "2022-05-03 17:15:47.814883"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "35846 Eduardo Pines, Port Robt, DE 53591"], ["lotSizeAcres", 7], ["lotSizeSquareFeet", 4262], ["listPrice", 3393125], ["bathroomsTotal", 3], ["bedroomsTotal", 1], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.819236"], ["updated_at", "2022-05-03 17:15:47.819236"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 420 5029 Adria Village, Mathamouth, MI 88835"], ["lotSizeAcres", 0], ["lotSizeSquareFeet", 2742], ["listPrice", 4671506], ["bathroomsTotal", 9], ["bedroomsTotal", 4], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.823605"], ["updated_at", "2022-05-03 17:15:47.823605"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 712 69854 Tonya Village, East Isobelville, LA 83952-4388"], ["lotSizeAcres", 0], ["lotSizeSquareFeet", 3070], ["listPrice", 3372850], ["bathroomsTotal", 4], ["bedroomsTotal", 6], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.828225"], ["updated_at", "2022-05-03 17:15:47.828225"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 597 375 Becker Extension, Williamsonville, NJ 83054-0453"], ["lotSizeAcres", 22], ["lotSizeSquareFeet", 2222], ["listPrice", 3689745], ["bathroomsTotal", 1], ["bedroomsTotal", 4], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.832156"], ["updated_at", "2022-05-03 17:15:47.832156"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "4244 Collins Plaza, West Ann, KS 40907-5508"], ["lotSizeAcres", 38], ["lotSizeSquareFeet", 4092], ["listPrice", 2518489], ["bathroomsTotal", 9], ["bedroomsTotal", 8], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.836273"], ["updated_at", "2022-05-03 17:15:47.836273"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 481 71193 Keeling Island, South Bobton, DE 33221-4634"], ["lotSizeAcres", 31], ["lotSizeSquareFeet", 2467], ["listPrice", 981598], ["bathroomsTotal", 10], ["bedroomsTotal", 1], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 17:15:47.840494"], ["updated_at", "2022-05-03 17:15:47.840494"]]
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:16:37 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.29ms)
+Completed 401 Unauthorized in 4ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 474)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 13:16:40 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}}
+[31mUnpermitted parameter: :user[0m
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 3429)
+
+
+  
+ActiveModel::UnknownAttributeError (unknown attribute 'username' for User.):
+  
+app/controllers/users_controller.rb:8:in `create'
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:16:51 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 401 Unauthorized in 37ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 350)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:16:56 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 401 Unauthorized in 1ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 348)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:17:15 -0400
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.09ms)
+Completed 401 Unauthorized in 10ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 2569)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:17:18 -0400
+Processing by UsersController#show as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 401 Unauthorized in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 353)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 13:17:28 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"username"=>"chloe"}}
+[31mUnpermitted parameter: :user[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.6ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Create (0.3ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "chloe"], ["password_digest", "$2a$12$gIgfxg595RsV1RDFchfbreS/triBG2Y2OhWWydedpgd.dJakObQgK"], ["created_at", "2022-05-03 17:17:29.142048"], ["updated_at", "2022-05-03 17:17:29.142048"]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.3ms)
+Completed 201 Created in 214ms (Views: 1.2ms | ActiveRecord: 4.4ms | Allocations: 6557)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 13:23:59 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"username"=>"chloe"}}
+[31mUnpermitted parameter: :user[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.7ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.06ms)
+Completed 422 Unprocessable Entity in 553ms (Views: 0.4ms | ActiveRecord: 9.6ms | Allocations: 352620)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:24:46 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.9ms)
+Completed 200 OK in 213ms (Views: 1.4ms | ActiveRecord: 0.8ms | Allocations: 1263)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:24:54 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 201 Created in 3ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 1028)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:24:55 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 205ms (Views: 0.5ms | ActiveRecord: 0.7ms | Allocations: 997)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:24:58 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 201 Created in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms | Allocations: 931)
+
+
+Started POST "/signup" for 127.0.0.1 at 2022-05-03 13:25:11 -0400
+Processing by UsersController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]", "user"=>{"username"=>"chloe"}}
+[31mUnpermitted parameter: :user[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:8:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  ↳ app/controllers/users_controller.rb:8:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.04ms)
+Completed 422 Unprocessable Entity in 217ms (Views: 0.3ms | ActiveRecord: 0.4ms | Allocations: 3095)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:25:20 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.25ms)
+Completed 200 OK in 202ms (Views: 0.7ms | ActiveRecord: 0.3ms | Allocations: 973)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:36:51 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (1.04ms)
+Completed 201 Created in 31ms (Views: 2.3ms | ActiveRecord: 10.4ms | Allocations: 4197)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:36:55 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.34ms)
+Completed 200 OK in 227ms (Views: 0.9ms | ActiveRecord: 0.3ms | Allocations: 981)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:38:56 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.22ms)
+Completed 201 Created in 3ms (Views: 0.6ms | ActiveRecord: 0.3ms | Allocations: 933)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:39:23 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.26ms)
+Completed 200 OK in 203ms (Views: 0.6ms | ActiveRecord: 0.4ms | Allocations: 968)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 13:39:23 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (2.1ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (13.62ms)
+Completed 200 OK in 132ms (Views: 96.3ms | ActiveRecord: 20.4ms | Allocations: 51384)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:40:09 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 13:40:09 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mUser Load (0.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.25ms)
+Completed 201 Created in 9ms (Views: 0.7ms | ActiveRecord: 0.7ms | Allocations: 1472)
+
+
+  [1m[36mHouse Load (1.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (12.92ms)
+Completed 200 OK in 36ms (Views: 26.9ms | ActiveRecord: 9.0ms | Allocations: 15103)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:40:14 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.83ms)
+Completed 201 Created in 5ms (Views: 1.3ms | ActiveRecord: 0.7ms | Allocations: 970)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:40:16 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.19ms)
+Completed 200 OK in 230ms (Views: 12.4ms | ActiveRecord: 0.4ms | Allocations: 972)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:41:08 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.24ms)
+Completed 201 Created in 6ms (Views: 0.8ms | ActiveRecord: 0.3ms | Allocations: 935)
+
+
+Started POST "/login" for 127.0.0.1 at 2022-05-03 13:41:09 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (0.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.17ms)
+Completed 200 OK in 229ms (Views: 0.5ms | ActiveRecord: 0.9ms | Allocations: 973)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 13:41:46 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 13:41:46 -0400
+Processing by UsersController#show as */*
+  [1m[36mUser Load (0.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+Processing by HousesController#index as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.18ms)
+Completed 201 Created in 3ms (Views: 0.8ms | ActiveRecord: 0.5ms | Allocations: 1289)
+
+
+  [1m[36mHouse Load (1.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (95.3ms)
+Completed 200 OK in 101ms (Views: 99.0ms | ActiveRecord: 1.8ms | Allocations: 11342)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 16:20:35 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 16:20:35 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#show as */*
+  [1m[36mUser Load (1.0ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+  [1m[36mHouse Load (7.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (6.66ms)
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+Completed 201 Created in 153ms (Views: 14.7ms | ActiveRecord: 57.3ms | Allocations: 7418)
+
+
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (42.9ms)
+Completed 200 OK in 292ms (Views: 269.0ms | ActiveRecord: 59.7ms | Allocations: 18429)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 16:22:00 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 16:22:00 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mUser Load (1.7ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+  [1m[36mHouse Load (6.0ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.79ms)
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+Completed 201 Created in 30ms (Views: 12.7ms | ActiveRecord: 2.5ms | Allocations: 2557)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (51.07ms)
+Completed 200 OK in 78ms (Views: 69.9ms | ActiveRecord: 6.0ms | Allocations: 11797)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 16:25:22 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 16:25:22 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.23ms)
+Completed 201 Created in 10ms (Views: 0.7ms | ActiveRecord: 0.8ms | Allocations: 1263)
+
+
+  [1m[36mHouse Load (3.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (36.35ms)
+Completed 200 OK in 57ms (Views: 52.4ms | ActiveRecord: 3.8ms | Allocations: 11875)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 16:32:36 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 16:32:36 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (3.9ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+  [1m[36mUser Load (1.8ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (43.77ms)
+Completed 200 OK in 102ms (Views: 100.9ms | ActiveRecord: 19.4ms | Allocations: 17326)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.25ms)
+Completed 201 Created in 115ms (Views: 0.7ms | ActiveRecord: 20.9ms | Allocations: 18239)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 16:58:15 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 16:58:15 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (2.0ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (61.74ms)
+  [1m[36mUser Load (85.5ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+Completed 200 OK in 190ms (Views: 185.8ms | ActiveRecord: 41.7ms | Allocations: 16954)
+
+
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (1.07ms)
+Completed 201 Created in 228ms (Views: 3.6ms | ActiveRecord: 124.6ms | Allocations: 18321)
+
+
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 17:00:40 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 17:00:40 -0400
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.74ms)
+Completed 201 Created in 12ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1090)
+
+
+  [1m[36mHouse Load (4.6ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (49.75ms)
+Completed 200 OK in 73ms (Views: 67.2ms | ActiveRecord: 4.6ms | Allocations: 11916)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-03 17:23:03 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 17:23:03 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#show as */*
+  [1m[36mHouse Load (5.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  [1m[36mUser Load (0.6ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (0.95ms)
+Completed 201 Created in 193ms (Views: 76.5ms | ActiveRecord: 16.8ms | Allocations: 17785)
+
+
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (74.16ms)
+Completed 200 OK in 221ms (Views: 209.5ms | ActiveRecord: 27.8ms | Allocations: 18579)
+
+
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_development" ENCODING = 'unicode'[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCREATE DATABASE "react_rails_api_project_template_test" ENCODING = 'unicode'[0m
+Started GET "/houses" for 127.0.0.1 at 2022-05-03 18:18:17 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-03 18:18:17 -0400
+  [1m[35m (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UsersController#show as */*
+Processing by HousesController#index as */*
+  [1m[36mUser Load (1.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/users_controller.rb:15:in `show'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (2.85ms)
+Completed 201 Created in 42ms (Views: 4.7ms | ActiveRecord: 10.6ms | Allocations: 14158)
+
+
+  [1m[36mHouse Load (1.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 1, address: "694 Barrows Oval, Tianashire, WA 11275-4673", lotSizeAcres: 17, lotSizeSquareFeet: 3868, associationFee: nil, listPrice: 356595, bathroomsTotal: 4, bedroomsTotal: 15, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-03 17:15:47.754254000 +0000", updated_at: "2022-05-03 17:15:47.754254000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (19.5ms)
+Completed 200 OK in 117ms (Views: 99.5ms | ActiveRecord: 14.5ms | Allocations: 59601)
+
+
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_try_advisory_lock(1087325618115650655)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (1.2ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT pg_advisory_unlock(1087325618115650655)[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mUser Load (0.4ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.3ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (0.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 12]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 14]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 17]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.5ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.4ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.1ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 20]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Destroy (0.2ms)[0m  [1m[31mDELETE FROM "users" WHERE "users"."id" = $1[0m  [["id", 21]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mHouse Load (0.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.7ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 11]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 12]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 13]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 14]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 15]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 16]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 17]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 18]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.1ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 19]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Destroy (0.2ms)[0m  [1m[31mDELETE FROM "houses" WHERE "houses"."id" = $1[0m  [["id", 20]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.5ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 1]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 2]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 3]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 4]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 5]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 6]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 7]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 8]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 9]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mMessage Destroy (0.1ms)[0m  [1m[31mDELETE FROM "messages" WHERE "messages"."id" = $1[0m  [["id", 10]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mWatchlist Load (0.7ms)[0m  [1m[34mSELECT "watchlists".* FROM "watchlists"[0m
+  [1m[36mOffer Load (0.6ms)[0m  [1m[34mSELECT "offers".* FROM "offers"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Kymberly"], ["LIMIT", 1]]
+  [1m[36mUser Create (2.0ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Kymberly"], ["password_digest", "$2a$12$Zhs.hjYhY.NMAu7P7xly4O4i3ZHQl4d3essO5xzvHUgateLWoWJGm"], ["created_at", "2022-05-03 22:18:39.046467"], ["updated_at", "2022-05-03 22:18:39.046467"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Willette"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Willette"], ["password_digest", "$2a$12$QH9o.PZ4NvuUeOkKGWwm8OGlHea.cb6Kia3VBMfxoyyN2KyP6A0nC"], ["created_at", "2022-05-03 22:18:39.237131"], ["updated_at", "2022-05-03 22:18:39.237131"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Lauretta"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Lauretta"], ["password_digest", "$2a$12$d9rk7c6db0Qvb3WRuOxd1Oof1Xt0ghfxZrGn95/EPrYI9l2HzhP9a"], ["created_at", "2022-05-03 22:18:39.426656"], ["updated_at", "2022-05-03 22:18:39.426656"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Kymberly"], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Mirella"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Mirella"], ["password_digest", "$2a$12$7FnRwcPFtSVP8pvpn6uDvuomhGactDuGBF9Z59aMQA0yr9WH4kTNO"], ["created_at", "2022-05-03 22:18:39.805682"], ["updated_at", "2022-05-03 22:18:39.805682"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Floyd"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Floyd"], ["password_digest", "$2a$12$M3lkWJKVEbQKmffjwC.weeEPmaqcR0fDOHT.MF1PrTVSYSLZRxisq"], ["created_at", "2022-05-03 22:18:39.998292"], ["updated_at", "2022-05-03 22:18:39.998292"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Nicolle"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Nicolle"], ["password_digest", "$2a$12$ajgw/W2SKnib8JHFKGdWt.rm..j75sWv7SIR45NTqtuf/ji4JjbTS"], ["created_at", "2022-05-03 22:18:40.186831"], ["updated_at", "2022-05-03 22:18:40.186831"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.4ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Gene"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Gene"], ["password_digest", "$2a$12$UtzW/NwU09VAwQY1bF9oHulbM59a13HA5EpSrlMe62aKyNUE.93qi"], ["created_at", "2022-05-03 22:18:40.380647"], ["updated_at", "2022-05-03 22:18:40.380647"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Olinda"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Olinda"], ["password_digest", "$2a$12$Wxn8ByTTzdmYXmT9S/i8gOVYXaip5tSNhCA1P1TWB6.dIuHMDDzoy"], ["created_at", "2022-05-03 22:18:40.571354"], ["updated_at", "2022-05-03 22:18:40.571354"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rick"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Rick"], ["password_digest", "$2a$12$TB27uERIKMxgMq00L/XduuxsVZmF6Swgnu42jJeBNIJ9za/kMOVnW"], ["created_at", "2022-05-03 22:18:40.768995"], ["updated_at", "2022-05-03 22:18:40.768995"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rene"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Rene"], ["password_digest", "$2a$12$DKEA6oh5UHHXw.FGPRU8B.9aqVjuvn8OxLwnm60bfyaTv/KFR97eu"], ["created_at", "2022-05-03 22:18:40.960442"], ["updated_at", "2022-05-03 22:18:40.960442"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Natividad"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Natividad"], ["password_digest", "$2a$12$FVcStgHZp/5A8ReXOyILkes0Dwgk9Lhdpe/o2TU6Mn9ykJwndZF56"], ["created_at", "2022-05-03 22:18:41.144937"], ["updated_at", "2022-05-03 22:18:41.144937"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Aron"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Aron"], ["password_digest", "$2a$12$43mTbzTXpiSIl.8/BC6D5uEq5FR23gymWnY3fgknOMAuuqGouMWCi"], ["created_at", "2022-05-03 22:18:41.341462"], ["updated_at", "2022-05-03 22:18:41.341462"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Rhett"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Rhett"], ["password_digest", "$2a$12$45ekD9Nr0/9W22rhOg3T5.4kTgBYqntrbc1njwCwzoZkq67EtTYti"], ["created_at", "2022-05-03 22:18:41.536249"], ["updated_at", "2022-05-03 22:18:41.536249"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Noel"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Noel"], ["password_digest", "$2a$12$QSOCfzMYHCWykJ9cagsLD.0/gU4QXCOOo8DT.W/Xg2FTUX2Z053IG"], ["created_at", "2022-05-03 22:18:41.727177"], ["updated_at", "2022-05-03 22:18:41.727177"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Georgeann"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Georgeann"], ["password_digest", "$2a$12$SzsgNUUbNLQvoYpHIRQHA.8nzChiDwHygsXcqPP0cYMwyCGJ7mrYq"], ["created_at", "2022-05-03 22:18:41.928042"], ["updated_at", "2022-05-03 22:18:41.928042"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Brice"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.1ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Brice"], ["password_digest", "$2a$12$3F57maFQ8fljk4boo3sdf.yeTm2a7qbJek9XTLRRJ7n.ujp7U2G4W"], ["created_at", "2022-05-03 22:18:42.115627"], ["updated_at", "2022-05-03 22:18:42.115627"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.3ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Elwood"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Elwood"], ["password_digest", "$2a$12$2WJp56HYR8MskAiYY61wHOlmas2q2MqGGjCu6RYYOXmBLjhgQeNQ."], ["created_at", "2022-05-03 22:18:42.306249"], ["updated_at", "2022-05-03 22:18:42.306249"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Stanton"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Stanton"], ["password_digest", "$2a$12$Xag4o3NCpFth2ft2xyuP6utNdSlsZr4ftJoPLxSaM7wC1.zj3OHm."], ["created_at", "2022-05-03 22:18:42.496530"], ["updated_at", "2022-05-03 22:18:42.496530"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Exists? (0.2ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "Phillis"], ["LIMIT", 1]]
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("username", "password_digest", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["username", "Phillis"], ["password_digest", "$2a$12$k7ZMact464F6u/N.fwFuFeEjZvmUPdHjrnqKTBzLNJEjddfP3zNOu"], ["created_at", "2022-05-03 22:18:42.692483"], ["updated_at", "2022-05-03 22:18:42.692483"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.3ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 28], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 25], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 31], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 27], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 34], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 30], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 38], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 36], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 26], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 37], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 24], ["LIMIT", 1]]
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[31mROLLBACK[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.7ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 22], ["created_at", "2022-05-03 22:18:42.815736"], ["updated_at", "2022-05-03 22:18:42.815736"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.1ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 23], ["created_at", "2022-05-03 22:18:42.820061"], ["updated_at", "2022-05-03 22:18:42.820061"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 35], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.1ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 35], ["created_at", "2022-05-03 22:18:42.823965"], ["updated_at", "2022-05-03 22:18:42.823965"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 40], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.1ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 40], ["created_at", "2022-05-03 22:18:42.827857"], ["updated_at", "2022-05-03 22:18:42.827857"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.1ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 32], ["created_at", "2022-05-03 22:18:42.831331"], ["updated_at", "2022-05-03 22:18:42.831331"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 32], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.1ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 32], ["created_at", "2022-05-03 22:18:42.835160"], ["updated_at", "2022-05-03 22:18:42.835160"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 33], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 33], ["created_at", "2022-05-03 22:18:42.839318"], ["updated_at", "2022-05-03 22:18:42.839318"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 23], ["created_at", "2022-05-03 22:18:42.843836"], ["updated_at", "2022-05-03 22:18:42.843836"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 23], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 23], ["created_at", "2022-05-03 22:18:42.848207"], ["updated_at", "2022-05-03 22:18:42.848207"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "users"."id" FROM "users"[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $2[0m  [["id", 22], ["LIMIT", 1]]
+  [1m[36mMessage Create (0.2ms)[0m  [1m[32mINSERT INTO "messages" ("conversation", "user_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["conversation", "hi, is the house still available?"], ["user_id", 22], ["created_at", "2022-05-03 22:18:42.852533"], ["updated_at", "2022-05-03 22:18:42.852533"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.7ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 450 10474 Ivette Walk, New Abdulmouth, ME 75412-0443"], ["lotSizeAcres", 12], ["lotSizeSquareFeet", 2974], ["listPrice", 3631798], ["bathroomsTotal", 3], ["bedroomsTotal", 2], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.855814"], ["updated_at", "2022-05-03 22:18:42.855814"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "853 Cindie Lodge, Clariceland, MD 55545-9522"], ["lotSizeAcres", 24], ["lotSizeSquareFeet", 3028], ["listPrice", 3644627], ["bathroomsTotal", 2], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.860237"], ["updated_at", "2022-05-03 22:18:42.860237"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "2645 Inocencia Tunnel, Robelport, MT 21361-0579"], ["lotSizeAcres", 35], ["lotSizeSquareFeet", 1959], ["listPrice", 1797880], ["bathroomsTotal", 7], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.864039"], ["updated_at", "2022-05-03 22:18:42.864039"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "20252 VonRueden Court, Faeborough, AL 70383-8879"], ["lotSizeAcres", 34], ["lotSizeSquareFeet", 2704], ["listPrice", 2164181], ["bathroomsTotal", 1], ["bedroomsTotal", 10], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.867843"], ["updated_at", "2022-05-03 22:18:42.867843"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 888 198 Jamison Locks, Lake Melda, VT 32073"], ["lotSizeAcres", 1], ["lotSizeSquareFeet", 2055], ["listPrice", 3170451], ["bathroomsTotal", 1], ["bedroomsTotal", 5], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.871689"], ["updated_at", "2022-05-03 22:18:42.871689"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 967 4427 Cummings Camp, South Sharolynhaven, NY 39258-5117"], ["lotSizeAcres", 17], ["lotSizeSquareFeet", 2401], ["listPrice", 2234613], ["bathroomsTotal", 1], ["bedroomsTotal", 3], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.875547"], ["updated_at", "2022-05-03 22:18:42.875547"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "14676 Dylan Street, New Latanya, NH 65355"], ["lotSizeAcres", 5], ["lotSizeSquareFeet", 1986], ["listPrice", 1906293], ["bathroomsTotal", 10], ["bedroomsTotal", 2], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.879637"], ["updated_at", "2022-05-03 22:18:42.879637"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 934 27898 Boyle Fork, New Tatiana, SD 74674-2616"], ["lotSizeAcres", 0], ["lotSizeSquareFeet", 1914], ["listPrice", 4869552], ["bathroomsTotal", 2], ["bedroomsTotal", 14], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.883807"], ["updated_at", "2022-05-03 22:18:42.883807"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "9769 Hellen Lights, West Eugenioshire, DE 85578-9432"], ["lotSizeAcres", 9], ["lotSizeSquareFeet", 3586], ["listPrice", 343180], ["bathroomsTotal", 10], ["bedroomsTotal", 3], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.887879"], ["updated_at", "2022-05-03 22:18:42.887879"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 813 472 Aldo Lake, Port Winstonview, SC 15974"], ["lotSizeAcres", 8], ["lotSizeSquareFeet", 2854], ["listPrice", 503782], ["bathroomsTotal", 6], ["bedroomsTotal", 7], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.892887"], ["updated_at", "2022-05-03 22:18:42.892887"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 677 64943 Solomon Rapid, Lake Larry, NE 02544-9169"], ["lotSizeAcres", 16], ["lotSizeSquareFeet", 2220], ["listPrice", 2467796], ["bathroomsTotal", 1], ["bedroomsTotal", 9], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.896879"], ["updated_at", "2022-05-03 22:18:42.896879"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 414 4047 Mariano Mews, Rafaelmouth, OR 91118"], ["lotSizeAcres", 35], ["lotSizeSquareFeet", 2085], ["listPrice", 4708239], ["bathroomsTotal", 6], ["bedroomsTotal", 10], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.901295"], ["updated_at", "2022-05-03 22:18:42.901295"]]
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "896 Octavia Shoal, South Naomi, OH 35663"], ["lotSizeAcres", 38], ["lotSizeSquareFeet", 3336], ["listPrice", 1653755], ["bathroomsTotal", 9], ["bedroomsTotal", 3], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.905115"], ["updated_at", "2022-05-03 22:18:42.905115"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 772 6491 Ledner Turnpike, Sherrybury, PA 71097"], ["lotSizeAcres", 29], ["lotSizeSquareFeet", 2165], ["listPrice", 2050804], ["bathroomsTotal", 1], ["bedroomsTotal", 6], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.909639"], ["updated_at", "2022-05-03 22:18:42.909639"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "563 Yuko Bypass, New Elfriedeville, NE 25842-2461"], ["lotSizeAcres", 38], ["lotSizeSquareFeet", 3174], ["listPrice", 4818910], ["bathroomsTotal", 7], ["bedroomsTotal", 2], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.914345"], ["updated_at", "2022-05-03 22:18:42.914345"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 383 367 Langworth Meadows, Gwenstad, NM 08398-3731"], ["lotSizeAcres", 7], ["lotSizeSquareFeet", 4149], ["listPrice", 4889375], ["bathroomsTotal", 7], ["bedroomsTotal", 4], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.921331"], ["updated_at", "2022-05-03 22:18:42.921331"]]
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 377 131 Wisozk Trail, West Solhaven, IA 78875-7017"], ["lotSizeAcres", 19], ["lotSizeSquareFeet", 2108], ["listPrice", 1485532], ["bathroomsTotal", 9], ["bedroomsTotal", 4], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.925922"], ["updated_at", "2022-05-03 22:18:42.925922"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.3ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Suite 701 7892 Hilario Rapid, Lake Elvaberg, ND 30700-7291"], ["lotSizeAcres", 16], ["lotSizeSquareFeet", 1527], ["listPrice", 4971008], ["bathroomsTotal", 7], ["bedroomsTotal", 13], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.931066"], ["updated_at", "2022-05-03 22:18:42.931066"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "444 Madalene Viaduct, Adellbury, NE 53402-6905"], ["lotSizeAcres", 12], ["lotSizeSquareFeet", 2473], ["listPrice", 4027515], ["bathroomsTotal", 2], ["bedroomsTotal", 3], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.935490"], ["updated_at", "2022-05-03 22:18:42.935490"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mHouse Create (0.2ms)[0m  [1m[32mINSERT INTO "houses" ("address", "lotSizeAcres", "lotSizeSquareFeet", "listPrice", "bathroomsTotal", "bedroomsTotal", "photo", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9) RETURNING "id"[0m  [["address", "Apt. 439 2736 Mertz Groves, Hanefort, ID 60277-3109"], ["lotSizeAcres", 17], ["lotSizeSquareFeet", 2323], ["listPrice", 4914886], ["bathroomsTotal", 6], ["bedroomsTotal", 12], ["photo", "https://loremflickr.com/300/300"], ["created_at", "2022-05-03 22:18:42.939204"], ["updated_at", "2022-05-03 22:18:42.939204"]]
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[35mCOMMIT[0m

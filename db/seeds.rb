@@ -3,12 +3,12 @@ House.destroy_all
 Message.destroy_all
 Watchlist.destroy_all
 Offer.destroy_all
-
+  
 puts " Seeding data...."
 
 puts " 👥 Creating users "
 20.times do
-    User.create(firstName: Faker::Name.first_name, lastName: Faker::Name.last_name ,email: Faker::Internet.email, password: "password", password_confirmation: "password",phoneNumber: Faker::PhoneNumber.cell_phone)
+    User.create(username: Faker::Name.first_name, password: "password", password_confirmation: "password")
 end
 
 puts " 👀 Creating watchlist "
