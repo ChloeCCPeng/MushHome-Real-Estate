@@ -10,7 +10,7 @@ function LoginForm({ onLogin }) {
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -27,7 +27,7 @@ function LoginForm({ onLogin }) {
         r.json().then((user) => {
           onLogin(user);
         console.log("logged in");
-        history.push("/home")
+        navigate("/account")
       })
       } else {
         r.json().then((err) => setErrors(err.errors));
