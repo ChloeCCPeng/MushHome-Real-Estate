@@ -1,5 +1,6 @@
 import React from 'react'
 import Search from './Search'
+import Filter from './Filter'
 import Listing from './Listing'
 import HouseMarketReport from './HouseMarketReport'
 import HouseRenovationIdeas from './HouseRenovationIdeas'
@@ -10,6 +11,7 @@ function Home() {
     <div>
         <h1>Home</h1>
         {/* <Search /> */}
+        <Filter />
         <Listing />
         <HouseRenovationIdeas />
         <HouseMarketReport />
