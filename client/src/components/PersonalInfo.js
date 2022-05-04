@@ -3,7 +3,7 @@ import UserCard from './UserCard'
 
 function PersonalInfo( {personalInfo}) {
 
-  const peronalConponent = personalInfo.map((user) => <UserCard key={user.id} user={user} onClick={showPersonalInfo} />
+  const peronalComponent = personalInfo.map((user) => <UserCard key={user.id} user={user} onClick={showPersonalInfo} />
   )
 
   return (

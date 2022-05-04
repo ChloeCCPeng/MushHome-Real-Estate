@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function UserCard( {user}) {
+
+const [personalInfo, setPersonalInfo] = useState ([])
+
+useEffect(() => {
+    fetch(`http;//localhost:3000/users/${user.id}`)
+    .then(res => res.json())
+    .then(data => setPersonalInfo (data))
+}, [])
 
   return (
     <div>User Account

@@ -6,12 +6,12 @@ import Listing from './Listing'
 import HouseMarketReport from './HouseMarketReport'
 import HouseRenovationIdeas from './HouseRenovationIdeas'
 import PreApproved from './PreApproved'
-import PersonalInfo from './PersonalInfo'
+import Account from './Account'
 
 function Home() {
 
   const [list, setList] = useState ([])
-  const [personalInfo, setPersonalInfo] = useState ([])
+  const [user, setUser] = useState ([])
   
   useEffect(() => {
     fetch("/houses")
@@ -20,10 +20,10 @@ function Home() {
   }, [])
 
   useEffect(() => {
-    fetch(`http;//localhost:3000/users/${user.id}`)
+    fetch("/me")
     .then(res => res.json())
-    .then(data => setPersonalInfo (data))
-  }, [])
+    .then(user => setUser (user))
+}, [])
 
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)
@@ -35,7 +35,7 @@ function Home() {
     <div>
         <h1>Home</h1>
         {/* <Search /> */}
-        <PersonalInfo personalInfo={personalInfo}/>
+        <Account user={user}/>
         <Filter />
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />

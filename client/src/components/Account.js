@@ -1,5 +1,5 @@
 import React from 'react'
-import PersonalInfo from './PersonalInfo'
+import UserCard from './UserCard'
 import MyListing from './MyListing'
 import MyWatchList from './MyWatchList'
 
@@ -7,7 +7,7 @@ function Account() {
   return (
     <div>
         <h2>My Account</h2>
-        <PersonalInfo />
+        <UserCard />
         <MyListing />
         <MyWatchList />
     </div>
