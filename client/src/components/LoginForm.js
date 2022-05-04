@@ -15,6 +15,7 @@ function LoginForm({ onLogin }) {
   function handleSubmit(e) {
     e.preventDefault();
     setIsLoading(true);
+    console.log('handleSubmit')
     fetch("/login", {
       method: "POST",
       headers: {

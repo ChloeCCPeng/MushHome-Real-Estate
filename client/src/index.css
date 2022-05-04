@@ -31,9 +31,9 @@ h4, p {
 }
 
 .ListingCard {
-  background-color: theme(#7f7f7f);
-  border-radius: theme('borderRadius.lg');
-  padding: theme('spacing.6');
-  box-shadow: theme('boxShadow.xl');
+  background-color: #7f7f7f;
+  border-radius: ;
+  padding: t;
+  box-shadow: ;
 
 }

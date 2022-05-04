@@ -1,66 +1,37 @@
-// import React from 'react'
-
-// function NavBar() {
-//   return (
-//     <div>NavBar</div>
-//   )
-// }
-
-// export default NavBar
-
-
 import React from "react";
 import { Link, useHistory } from "react-router-dom";
-import styled from "styled-components";
-import { Button } from "../styles";
+import { useNavigate } from "react-router-dom";
 
 
 function NavBar({ user, setUser}) {
-    const history = useHistory();
+  console.log (user);
+    // const history = useHistory();
+    let navigate = useNavigate();
     
     function handleLogoutClick() {
         fetch("/logout", { method: "DELETE" }).then((r) => {
         if (r.ok) {
-            setUser(null);
-            history.push("/")
+            setUser("");
+            navigate("/")
         }
         });
     }
 
     return (
-      <Wrapper>
+      <div>
         <Link to="/" exact>home</Link>
         <nav>
         {!user ? 
-        <Button as={Link} to="/login" exact>Login</Button> 
+        <button as={Link} to="/login" exact>Login</button> 
         :
-        (user && user.seller) ?
-        <>
-          <Button variant="outline" onClick={handleLogoutClick}>
+          <button variant="outline" onClick={handleLogoutClick}>
           Logout
-          </Button>
-        </>
-        :  
-        <Button variant="outline" onClick={handleLogoutClick}>Logout</Button>
+          </button>
         }
       </nav>
-    </Wrapper>
+        <Link to="/account" exact>Account</Link>
+    </div>
   );
 }
-
-    const Wrapper = styled.header`
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 8px;
-    `;
-
-
-    // const Nav = styled.nav`
-    // display: flex;
-    // gap: 4px;
-    // position: absolute;
-    // right: 8px;
-    // `;
 
     export default NavBar;

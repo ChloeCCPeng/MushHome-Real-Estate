@@ -6,6 +6,7 @@ import { Button } from "../styles";
 
 function Login({ onLogin }) {
   const [showLogin, setShowLogin] = useState(true);
+  console.log ("login component reached")
 
   return (
     <div>
