@@ -1,8 +1,8 @@
 import React from 'react'
 import ListingCard from './ListingCard'
 
-function Listing({ list }) { 
-  const houseComponent = list.map((house) => <ListingCard key={house.id} house={house} />
+function Listing({list, onDelete}) { 
+  const houseComponent = list.map((house) => <ListingCard key={house.id} house={house} onDelete={onDelete}/>
   )
   return (
     <div>

@@ -1,12 +1,16 @@
 import React from 'react'
+import UserCard from './UserCard'
 
-function PersonalInfo() {
+function PersonalInfo( {personalInfo}) {
+
+  const peronalConponent = personalInfo.map((user) => <UserCard key={user.id} user={user} onClick={showPersonalInfo} />
+  )
+  
   return (
-    <div>PersonalInfo
-      {/* <h3>First Name: {user.firstName}</h3>
-      <h3>Last Name: {user.lastName}</h3>
-      <h3>Email: {user.email}</h3>
-      <h3>Contact Number: {user.phoneNumber}</h3> */}
+    <div>
+      <span class="material-icons">
+        account_circle
+      </span>
     </div>
   )
 }
