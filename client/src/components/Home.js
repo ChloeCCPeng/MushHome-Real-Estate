@@ -7,6 +7,7 @@ import HouseMarketReport from './HouseMarketReport'
 import HouseRenovationIdeas from './HouseRenovationIdeas'
 import PreApproved from './PreApproved'
 import Account from './Account'
+import NavBar from './NavBar'
 
 function Home() {
 
@@ -21,8 +22,10 @@ function Home() {
 
   useEffect(() => {
     fetch("/me")
+    // fetch(`http://localhost:3000/${user.id}`)
     .then(res => res.json())
     .then(user => setUser (user))
+    console.log (user)
 }, [])
 
   function onDelete(dHouse){
@@ -36,6 +39,7 @@ function Home() {
         <h1>Home</h1>
         {/* <Search /> */}
         <Account user={user}/>
+        <NavBar user ={user} setUser ={setUser}/>
         <Filter />
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />

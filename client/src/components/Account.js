@@ -3,11 +3,13 @@ import UserCard from './UserCard'
 import MyListing from './MyListing'
 import MyWatchList from './MyWatchList'
 
-function Account() {
+function Account({user}) {
+
+
   return (
     <div>
         <h2>My Account</h2>
-        <UserCard />
+        <UserCard user={user}/>
         <MyListing />
         <MyWatchList />
     </div>

@@ -1,23 +1,24 @@
-import React, { useEffect } from 'react'
+import React from 'react'
+import PersonalInfo from './PersonalInfo'
 
 function UserCard( {user}) {
 
-const [personalInfo, setPersonalInfo] = useState ([])
+// const personalComponent = user.map((u) => <PersonalInfo key={u.id} u={u}/>
+// )
 
-useEffect(() => {
-    fetch(`http;//localhost:3000/users/${user.id}`)
-    .then(res => res.json())
-    .then(data => setPersonalInfo (data))
-}, [])
+// function personalInfoDisplay (){
+//     console.log ('hey')
+//   }
 
-  return (
-    <div>User Account
-        <h3>First Name: {user.firstName}</h3>
-        <h3>Last Name: {user.lastName}</h3>
-        <h3>Email: {user.email}</h3>
-        <h3>Contact Number: {user.phoneNumber}</h3>
-    </div>
-  )
+return (
+<div>
+    <span class="material-icons">
+    account_circle
+    </span>
+    {/* <div> {personalComponent}</div> */}
+</div>
+)
 }
+
 
 export default UserCard
