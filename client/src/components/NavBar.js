@@ -22,7 +22,6 @@ function NavBar({ user, setUser, handleLoginClick}) {
 
     return (
       <div>
-        <Link exact to="/" >home</Link>
         <nav>
         {!user ? 
         <button as={Link} exact to="/login" onClick={handleLoginClick} >Login</button> 
@@ -30,7 +29,12 @@ function NavBar({ user, setUser, handleLoginClick}) {
         <button variant="outline" onClick={handleLogoutClick}> Logout</button>
         }
       </nav>
+        <Link exact to="/" >home</Link>
         <Link to="/account" exact>Account</Link>
+        <Link to="/account" exact>Account</Link>
+        <Link to="/account" exact>Account</Link>
+        <Link to="/account" exact>Account</Link>
+
     </div>
   );
 }

@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import styled from "styled-components";
 import LoginForm from "./LoginForm";
 import SignUpForm from "./SignUpForm";
 import { Button } from "../styles";
