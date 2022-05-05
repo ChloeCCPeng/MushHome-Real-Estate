@@ -36,10 +36,9 @@ function Home() {
 
   return (
     <div>
-        <h1>Home</h1>
+       <NavBar user ={user} setUser ={setUser}/>
         {/* <Search /> */}
         <Account user={user}/>
-        <NavBar user ={user} setUser ={setUser}/>
         <Filter />
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />

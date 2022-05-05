@@ -21,19 +21,17 @@ function NavBar({ user, setUser, handleLoginClick}) {
   }
 
     return (
-      <div>
-        <nav>
+      <div class="sidebar">
+        <nav class="static text-slate-200 px-8" >
         {!user ? 
         <button as={Link} exact to="/login" onClick={handleLoginClick} >Login</button> 
         :
         <button variant="outline" onClick={handleLogoutClick}> Logout</button>
         }
       </nav>
-        <Link exact to="/" >home</Link>
-        <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
+        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >home</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/account" exact>Account</Link>
+  
 
     </div>
   );
