@@ -1,14 +1,20 @@
 import React from 'react'
 import ListingCard from './ListingCard'
 
-function MyWatchList( {onWatchHouse, watchedHouse}) {
+function MyWatchList({onWatch, list}) {
 
-  const watchList = watchedHouse.map((house) => 
-  <ListingCard key={house.id} house={house} onClick={onWatchHouse} />
-  )
+  let watchListComponent;
+  if (list) {
+    watchListComponent = list.map((house) => {
+      return <ListingCard key={house.id} house={house} onWatch={onWatch} />
+    });
+  }
+ 
+  console.log(list, onWatch, watchListComponent, "is it working?")
 
   return (
-    <div className="card">{watchList}</div>
+    <div className="card">My Watch List{watchListComponent}</div>
+
   )
 }
 
