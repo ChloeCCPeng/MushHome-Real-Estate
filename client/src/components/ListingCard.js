@@ -1,6 +1,6 @@
 import React from 'react'
 
-function ListingCard({house, onDelete}) {
+function ListingCard({house, onDelete, onWatch}) {
 
 
   function handleDelete(e){
@@ -11,6 +11,18 @@ function ListingCard({house, onDelete}) {
     .then(res => res.json())
     .then(()=> onDelete(house))
   }
+
+  function handleWatch() {
+    const likesBttn = document.createElement("button");
+    likesBttn.className = "like-bttn";
+    likesBttn.textContent = "♥";
+    likesBttn.addEventListener("click", function (event) {
+      event.stopPropagation()
+      // ++pokemon.likes;
+      // likeNum.textContent = pokemon.likes;
+    });
+  }
+  
 
   return (
     <div class="py-6 px-4 sm:p-6 md:py-10 md:px-8">

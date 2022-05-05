@@ -29,8 +29,8 @@ function NavBar({ user, setUser, handleLoginClick}) {
         <button variant="outline" onClick={handleLogoutClick}> Logout</button>
         }
       </nav>
-        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >home</Link>
-        <Link class="static text-slate-200 px-10 float-right" to="/account" exact>Account</Link>
+        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/account" exact>ACCOUNT</Link>
   
 
     </div>
