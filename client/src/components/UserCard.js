@@ -1,21 +1,20 @@
 import React from 'react'
-import PersonalInfo from './PersonalInfo'
+// import PersonalInfo from './PersonalInfo'
 
 function UserCard( {user}) {
 
-// const personalComponent = user.map((u) => <PersonalInfo key={u.id} u={u}/>
-// )
+// const userName = user.userName
 
 // function personalInfoDisplay (){
 //     console.log ('hey')
 //   }
-
+// console.log (userName)
 return (
 <div>
     <span class="material-icons">
     account_circle
     </span>
-    {/* <div> {personalComponent}</div> */}
+    {/* {userName}    */}
 </div>
 )
 }

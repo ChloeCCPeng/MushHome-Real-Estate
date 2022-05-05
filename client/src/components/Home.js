@@ -25,8 +25,8 @@ function Home() {
     // fetch(`http://localhost:3000/${user.id}`)
     .then(res => res.json())
     .then(user => setUser (user))
-    console.log (user)
-}, [])
+  }, [])
+  console.log (user)
 
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)

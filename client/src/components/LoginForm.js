@@ -1,7 +1,9 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { Button, Error, Input, FormField, Label } from "../styles";
 import { Link, useNavigate } from "react-router-dom";
 import { Redirect, Route } from "react-router-dom";
+import NavBar from "./NavBar";
+import { UserContext } from './UserContext';
 
 
 function LoginForm({ onLogin }) {
@@ -9,6 +11,8 @@ function LoginForm({ onLogin }) {
   const [password, setPassword] = useState("");
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
+  const { currentUser } = useContext (UserContext)
+  const { setCurrentUser } = useContext (UserContext)
 
   const navigate = useNavigate();
 
@@ -36,39 +40,58 @@ function LoginForm({ onLogin }) {
     });
   }
 
+  function handleLoginClick(e) {
+    e.preventDefault();
+    fetch("/login", {
+      method: "POST",
+      headers: {"Content-Type": "application/json"},
+      body: JSON.stringify({
+        username: username,
+        password: password
+      })
+    }).then((res) => {
+      if (res.ok) {
+        res.json().then((currentUser) => setCurrentUser(currentUser))
+      } else alert("Invalid login. Please try again.")
+    })
+  }
+
   return (
-    <form onSubmit={handleSubmit} >
-      <FormField>
-        <Label htmlFor="username">Username</Label>
-        <Input
-          type="text"
-          id="username"
-          autoComplete="off"
-          value={username}
-          onChange={(e) => setUsername(e.target.value)}
-        />
-      </FormField>
-      <FormField>
-        <Label htmlFor="password">Password</Label>
-        <Input
-          type="password"
-          id="password"
-          autoComplete="current-password"
-          value={password}
-          onChange={(e) => setPassword(e.target.value)}
-        />
-      </FormField>
-      <FormField>
-        <Button variant="fill" color="primary" type="submit">
-          {isLoading ? "Loading..." : "Login"}
-        </Button>
-      </FormField>
-      <FormField>
-        {errors.map((err) => (
-          <Error key={err}>{err}</Error>
-        ))}
-      </FormField>
-    </form>
+    <>
+      <form onSubmit={handleSubmit} >
+        <FormField>
+          <Label htmlFor="username">Username</Label>
+          <Input
+            type="text"
+            id="username"
+            autoComplete="off"
+            value={username}
+            onChange={(e) => setUsername(e.target.value)}
+          />
+        </FormField>
+        <FormField>
+          <Label htmlFor="password">Password</Label>
+          <Input
+            type="password"
+            id="password"
+            autoComplete="current-password"
+            value={password}
+            onChange={(e) => setPassword(e.target.value)}
+          />
+        </FormField>
+        <FormField>
+          <Button variant="fill" color="primary" type="submit">
+            {isLoading ? "Loading..." : "Login"}
+          </Button>
+        </FormField>
+        <FormField>
+          {errors.map((err) => (
+            <Error key={err}>{err}</Error>
+          ))}
+        </FormField>
+      </form>
+      <NavBar handleLoginClick={handleLoginClick}/>
+    </>
   );
 }
 
