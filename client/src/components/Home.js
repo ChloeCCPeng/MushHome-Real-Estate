@@ -24,17 +24,6 @@ function Home() {
     .finally(() => setLoading (false))
   }, [])
 
-  // useEffect(() => {
-  //   fetch("/houses")
-  //     .then((res) => res.json())
-  //     .then((data) => {
-  //       setList(data);
-  //     })
-  //     .catch((err) => {
-  //       console.log(err);
-  //     });
-  // }, []);
-
   useEffect(() => {
     fetch("/me")
     // fetch(`http://localhost:3000/${user.id}`)
@@ -52,7 +41,7 @@ function Home() {
   function onWatch (wHouse){
     if(!watchedHouse.includes(wHouse)){
       setWatchedHouse([...watchedHouse, wHouse])
-      console.log('hey, youre watched')
+      console.log(wHouse)
     }
   }
   if (loading) {
