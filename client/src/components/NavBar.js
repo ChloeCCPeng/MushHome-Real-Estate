@@ -31,9 +31,7 @@ function NavBar({ user, setUser, handleLoginClick}) {
       </nav>
         <Link exact to="/" >home</Link>
         <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
-        <Link to="/account" exact>Account</Link>
+  
 
     </div>
   );
