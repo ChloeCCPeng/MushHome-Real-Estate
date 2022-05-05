@@ -3,16 +3,16 @@ import UserCard from './UserCard'
 import MyListing from './MyListing'
 import MyWatchList from './MyWatchList'
 
-function Account({user, onWatch, watchedHouse}) {
+function Account({user, onWatch, list}) {
 
-  
+  // console.log(list, onWatch, "is it working?")
 
 
   return (
     <div>
         <UserCard user={user}/>
         <MyListing />
-        <MyWatchList onWatch={onWatch} watchedHouse={watchedHouse}/>
+        <MyWatchList list={list} onWatch={onWatch}/>
     </div>
   )
 }
