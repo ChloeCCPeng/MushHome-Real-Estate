@@ -18,6 +18,10 @@ class UsersController < ApplicationController
     end
   end
 
+  def me
+    render json: current_user
+  end
+
   def update
     user = find_user
     user.update!(user_params)
