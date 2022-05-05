@@ -8,7 +8,6 @@ function Account({user}) {
 
   return (
     <div>
-        <h2>My Account</h2>
         <UserCard user={user}/>
         <MyListing />
         <MyWatchList />

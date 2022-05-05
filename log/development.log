@@ -11037,3 +11037,99 @@ No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, 
 Completed 200 OK in 107ms (Views: 105.7ms | ActiveRecord: 10.2ms | Allocations: 25846)
 
 
+Started GET "/houses" for 127.0.0.1 at 2022-05-04 21:39:21 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-04 21:39:21 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001d010>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (25.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (23.57ms)
+Completed 200 OK in 66ms (Views: 39.7ms | ActiveRecord: 25.5ms | Allocations: 24875)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-05-04 22:36:50 -0400
+Processing by SessionsController#destroy as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.57ms)
+Completed 401 Unauthorized in 21ms (Views: 13.6ms | Allocations: 475)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-05-04 22:36:51 -0400
+Processing by SessionsController#destroy as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.1ms)
+Completed 401 Unauthorized in 2ms (Views: 0.6ms | Allocations: 439)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-05-04 22:37:22 -0400
+Processing by SessionsController#destroy as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.11ms)
+Completed 401 Unauthorized in 5ms (Views: 1.8ms | Allocations: 427)
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2022-05-04 22:37:23 -0400
+Processing by SessionsController#destroy as */*
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with Hash (0.05ms)
+Completed 401 Unauthorized in 5ms (Views: 0.5ms | Allocations: 429)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-04 22:37:34 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 37ms (Allocations: 2226)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001d128>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started POST "/login" for 127.0.0.1 at 2022-05-04 22:37:36 -0400
+Processing by SessionsController#create as */*
+  Parameters: {"username"=>"chloe", "password"=>"[FILTERED]", "session"=>{"username"=>"chloe", "password"=>"[FILTERED]"}}
+  [1m[36mUser Load (2.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."username" = $1 LIMIT $2[0m  [["username", "chloe"], ["LIMIT", 1]]
+  ↳ app/controllers/sessions_controller.rb:4:in `create'
+[active_model_serializers] Rendered ActiveModel::Serializer::Null with User (1.33ms)
+Completed 200 OK in 258ms (Views: 1.8ms | ActiveRecord: 11.6ms | Allocations: 4211)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-04 22:39:50 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001d1f0>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/houses" for 127.0.0.1 at 2022-05-04 22:40:53 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (1.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (24.18ms)
+Completed 200 OK in 36ms (Views: 34.3ms | ActiveRecord: 1.5ms | Allocations: 10948)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-04 22:40:53 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2226)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001d290>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/me" for 127.0.0.1 at 2022-05-04 22:40:53 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001d308>):
+  
+app/controllers/users_controller.rb:22:in `me'
