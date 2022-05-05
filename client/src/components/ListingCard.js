@@ -13,14 +13,15 @@ function ListingCard({house, onDelete, onWatch}) {
   }
 
   function handleWatch() {
-    const likesBttn = document.createElement("button");
-    likesBttn.className = "like-bttn";
-    likesBttn.textContent = "♥";
-    likesBttn.addEventListener("click", function (event) {
-      event.stopPropagation()
-      // ++pokemon.likes;
-      // likeNum.textContent = pokemon.likes;
-    });
+    console.log("like")
+    // const likesBttn = document.createElement("button");
+    // likesBttn.className = "like-bttn";
+    // likesBttn.textContent = "♥";
+    // likesBttn.addEventListener("click", function (event) {
+    //   event.stopPropagation()
+    //   ++pokemon.likes;
+    //   likeNum.textContent = pokemon.likes;
+    // });
   }
   
 
@@ -39,6 +40,9 @@ highlight_off
         <div class="grid gap-4 col-start-1 col-end-3 row-start-1 sm:mb-6 sm:grid-cols-4 lg:gap-6 lg:col-start-2 lg:row-end-6 lg:row-span-6 lg:mb-0">
           <image src={house.photo} class="w-full h-60 object-cover rounded-lg"></image>;
         </div>
+        <button onClick={handleWatch}>
+        <span class="material-icons"> favorite_border </span>
+        </button>
       </div>
     </div>
   )

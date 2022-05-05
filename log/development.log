@@ -11401,3 +11401,177 @@ No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, 
 Completed 200 OK in 192ms (Views: 191.4ms | ActiveRecord: 97.4ms | Allocations: 33736)
 
 
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:23:38 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:23:38 -0400
+Processing by UsersController#me as */*
+Processing by HousesController#index as */*
+Completed 500 Internal Server Error in 39ms (Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001de70>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:23:38 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 13ms (Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001dee8>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (3.2ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (23.93ms)
+Completed 200 OK in 236ms (Views: 233.9ms | ActiveRecord: 74.1ms | Allocations: 40685)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-05 09:31:47 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:33:59 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:33:59 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 10ms (Allocations: 2226)
+
+
+Processing by HousesController#index as */*
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001dfd8>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (1.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (21.13ms)
+Completed 200 OK in 100ms (Views: 99.6ms | ActiveRecord: 11.4ms | Allocations: 25612)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:34:32 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:34:32 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+Processing by HousesController#index as */*
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e0a0>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (0.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (15.96ms)
+Completed 200 OK in 43ms (Views: 42.5ms | ActiveRecord: 0.4ms | Allocations: 22397)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:34:44 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e168>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:34:44 -0400
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (1.5ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (19.02ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 1.5ms | Allocations: 11319)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:34:44 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e208>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:35:50 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:35:50 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e2a8>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (40.4ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (18.9ms)
+Completed 200 OK in 91ms (Views: 47.8ms | ActiveRecord: 40.4ms | Allocations: 24815)
+
+
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:35:50 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e320>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-05 09:51:02 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:51:05 -0400
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:51:05 -0400
+Processing by HousesController#index as */*
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 12ms (Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e3e8>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:51:05 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 12ms (Allocations: 2601)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e460>):
+  
+app/controllers/users_controller.rb:22:in `me'
+  [1m[36mHouse Load (1.3ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (14.5ms)
+Completed 200 OK in 128ms (Views: 128.1ms | ActiveRecord: 52.4ms | Allocations: 43001)
+
+
+Started GET "/babel/parser/lib/index.js" for 127.0.0.1 at 2022-05-05 09:51:09 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/babel/parser/lib/index.js"):
+  
+Started GET "/me" for 127.0.0.1 at 2022-05-05 09:53:26 -0400
+Started GET "/houses" for 127.0.0.1 at 2022-05-05 09:53:26 -0400
+Processing by UsersController#me as */*
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms | Allocations: 2225)
+
+
+  
+NameError (undefined local variable or method `current_user' for #<UsersController:0x0000000001e528>):
+  
+app/controllers/users_controller.rb:22:in `me'
+Processing by HousesController#index as */*
+  [1m[36mHouse Load (0.8ms)[0m  [1m[34mSELECT "houses".* FROM "houses"[0m
+  ↳ app/controllers/houses_controller.rb:8:in `index'
+No serializer found for resource: #<House id: 41, address: "30737 Haley Shoals, Clevelandmouth, NH 50471-2867", lotSizeAcres: 12, lotSizeSquareFeet: 3785, associationFee: nil, listPrice: 364217, bathroomsTotal: 1, bedroomsTotal: 10, mainLevelBathrooms: nil, fireplacesTotal: nil, fireplaceFeature: nil, garageSpaces: nil, bathroomHalf: nil, storiesTotal: nil, publicRemarks: nil, livingArea: nil, yearBuilt: nil, yearBuiltDetails: nil, standardStatus: nil, propertyType: nil, propertySubType: nil, listingContractDate: nil, previousListPrice: nil, originalListPrice: nil, contingency: nil, numberOfUnitsTotal: nil, listingTerms: nil, daysOnMarket: nil, appliances: nil, roomsTotal: nil, exteriorFeatures: nil, flooring: nil, foundationDetails: nil, frontageType: nil, gas: nil, accessibilityFeatures: nil, heating: nil, occupantType: nil, roadSurfaceType: nil, roof: nil, constructionMaterials: nil, sewer: nil, carportSpaces: nil, openParkingYN: nil, laundryFeatures: nil, privateRemarks: nil, taxAssessedValue: nil, taxAnnualAount: nil, taxYear: nil, subdivisionName: nil, buyerFinancing: nil, homeWarrantyYN: nil, architecturalStyle: nil, comunityFeatures: nil, patioAndPorchFeatures: nil, otherStructures: nil, attachedGarage: nil, carportYN: nil, contigentDate: nil, associationYN: nil, associationName: nil, associationFeeFrequency: nil, associationFeeIncludes: nil, photo: "https://loremflickr.com/300/300", showingContactPhone: nil, showingContactName: nil, exclusions: nil, inclusions: nil, elementarySchool: nil, elementarySchoolDistrict: nil, middleOrJuniorSchool: nil, middleOrJuniorSchoolDistrict: nil, highSchool: nil, highSchoolDistrict: nil, garageYN: nil, levels: nil, builderName: nil, builderModel: nil, interiorFeatures: nil, greenEnergyEfficient: nil, walkScore: nil, user_id: nil, created_at: "2022-05-04 20:41:52.994553000 +0000", updated_at: "2022-05-04 20:41:52.994553000 +0000">
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with House::ActiveRecord_Relation (14.16ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.8ms | Allocations: 10969)
+
+
