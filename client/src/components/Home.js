@@ -8,11 +8,13 @@ import HouseRenovationIdeas from './HouseRenovationIdeas'
 import PreApproved from './PreApproved'
 import Account from './Account'
 import NavBar from './NavBar'
+import MyWatchList from './MyWatchList'
 
 function Home() {
 
   const [list, setList] = useState ([])
   const [user, setUser] = useState ([])
+  const [watchedHouse, setWatchedHouse] = useState([])
   
   useEffect(() => {
     fetch("/houses")
@@ -34,11 +36,17 @@ function Home() {
     setList(updatedList)
   }
 
+  function onWatch (house){
+    if(!watchedHouse.includes(house)){
+      setWatchedHouse([...watchedHouse, house])
+    }
+  }
+
   return (
     <div>
        <NavBar user ={user} setUser ={setUser}/>
         {/* <Search /> */}
-        <Account user={user}/>
+        <Account user={user} onWatch={onWatch} watchedHouse={watchedHouse}/>
         <Filter />
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />
