@@ -8,6 +8,7 @@ import HouseRenovationIdeas from './HouseRenovationIdeas'
 import PreApproved from './PreApproved'
 import Account from './Account'
 import NavBar from './NavBar'
+import { useNavigate } from "react-router-dom";
 
 function Home() {
 
@@ -23,15 +24,7 @@ function Home() {
     .then(data => setList (data))
     .finally(() => setLoading (false))
   }, [])
-
-  useEffect(() => {
-    fetch("/me")
-    // fetch(`http://localhost:3000/${user.id}`)
-    .then(res => res.json())
-    .then(user => setUser (user))
-  }, [])
-  console.log (user, 'user')
-
+  
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)
     console.log(updatedList)
@@ -44,11 +37,15 @@ function Home() {
       console.log(wHouse)
     }
   }
+
   if (loading) {
     return <p class="fa-duotone fa-spinner">Data is loading...</p>;
   }
   
-  console.log(list, onWatch, "is it define?")
+
+  // filter function
+  
+  console.log(list, "is it define?")
   return (
     <div>
        <NavBar user ={user} setUser ={setUser}/>

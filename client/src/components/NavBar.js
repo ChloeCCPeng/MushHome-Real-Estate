@@ -6,7 +6,7 @@ import { useState, useContext } from 'react';
 
 function NavBar({ user, setUser, handleLoginClick}) {
 
-  console.log (user);
+  // console.log (user);
     // const history = useHistory();
     let navigate = useNavigate();
 
