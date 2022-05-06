@@ -21,9 +21,9 @@ function Home() {
   
   useEffect(() => {
     setLoading (true);
-    fetch("/list")
+    fetch("/houses")
     .then(res => res.json())
-    .then(data => setList (data))
+    .then(data => setList(data))
     .finally(() => setLoading (false))
   }, [])
   
@@ -56,27 +56,24 @@ function Home() {
   // const listToDisplay = list
   // .filter(house => selectedLocation === "All" || house.location === selectedLocation)
 
-  const listToDisplay = list
-  
-  .filter(house => selectedLocation === "All" || house.location === selectedLocation)
+  // const listToDisplay = list
+  // .filter(house => selectedLocation === "All" || house.location === selectedLocation)
 
 
-  // let listToDisplay;
-  // if (list) {
-  //   listToDisplay = list.map(house => {
-  //     return selectedLocation === "All" || house.location === selectedLocation;
-  //   });
-  // }
+  let listToDisplay;
+  if (list) {
+    listToDisplay = list.map(house => {
+      return selectedLocation === "All" || house.location === selectedLocation;
+    });
+  }
 
+  let userList;
+  if (list) {
+    userList = list.filter(house => {
+      return selectedLocation === "All" || house.location === selectedLocation
+    })
+  }
   console.log(list)
-
-  // let userList;
-  // if (list) {
-  //   userList = list.filter(house => {
-  //     return selectedLocation === "All" || house.location === selectedLocation
-  //   })
-  // }
-  // console.log(list)
 
   // const userList = list
   // .filter(house => user && house.user_id === user.id)
@@ -89,7 +86,7 @@ function Home() {
        <NavBar user ={user} setUser ={setUser}/>
         {/* <Search /> */}
         <Account list={list} user={user} onWatch={onWatch} />
-        <Filter selectedLocation={selectedLocation}/>
+        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange}/>
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />
         <HouseMarketReport />
