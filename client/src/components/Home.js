@@ -70,7 +70,7 @@ function Home() {
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay}/>
-        <Listing list={list} onDelete={onDelete}/>
+        {/* <Listing list={list} onDelete={onDelete}/> */}
         <HouseRenovationIdeas />
         <HouseMarketReport />
         <PreApproved />
