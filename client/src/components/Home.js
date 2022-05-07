@@ -1,4 +1,3 @@
-// import React from 'react'
 import React, { useEffect, useState } from 'react'
 import Search from './Search'
 import Filter from './Filter'
@@ -49,44 +48,28 @@ function Home() {
     setSelectedLocation(location)
   }
 
-  // function onPriceChange(price) {
-  //   setSelectedPrice(price)
-  // }
-
-  // const listToDisplay = list
-  // .filter(house => selectedLocation === "All" || house.location === selectedLocation)
-
-  // const listToDisplay = list
-  // .filter(house => selectedLocation === "All" || house.location === selectedLocation)
-
-
   let listToDisplay;
   if (list) {
-    listToDisplay = list.map(house => {
-      return selectedLocation === "All" || house.location === selectedLocation;
+    listToDisplay = list.filter(house => {
+      return selectedLocation === "All" || house.state === selectedLocation;
     });
   }
 
   let userList;
   if (list) {
     userList = list.filter(house => {
-      return selectedLocation === "All" || house.location === selectedLocation
+      return selectedLocation === "All" || house.state === selectedLocation
     })
   }
   console.log(list)
-
-  // const userList = list
-  // .filter(house => user && house.user_id === user.id)
-  // .filter(house => selectedLocation === "All" || house.location === selectedLocation)
-  // .filter(house => selectedPrice === "All" || house.price === selectedPrice)
 
   console.log(list, "is it define?")
   return (
     <div>
        <NavBar user ={user} setUser ={setUser}/>
         {/* <Search /> */}
-        <Account list={list} user={user} onWatch={onWatch} />
-        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange}/>
+        {/* <Account list={list} user={user} onWatch={onWatch} /> */}
+        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay}/>
         <Listing list={list} onDelete={onDelete}/>
         <HouseRenovationIdeas />
         <HouseMarketReport />
@@ -96,4 +79,3 @@ function Home() {
 }
 
 export default Home
-
