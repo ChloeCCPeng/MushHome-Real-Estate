@@ -69,7 +69,7 @@ function Home() {
        <NavBar user ={user} setUser ={setUser}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
-        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay}/>
+        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay} onWatch={onWatch}/>
         {/* <Listing list={list} onDelete={onDelete}/> */}
         <HouseRenovationIdeas />
         <HouseMarketReport />
