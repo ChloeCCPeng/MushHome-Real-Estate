@@ -11,18 +11,6 @@ function ListingCard({house, onDelete, onWatch}) {
     .then(()=> onDelete(house))
   }
 
-  // function handleWatch() {
-  //   const watchedBttn = document.createElement("button");
-  //   watchedBttn.className = "material-icons";
-  //   watchedBttn.textContent = "favorite_border";
-  //   watchedBttn.addEventListener("click", function (event) {
-  //     event.stopPropagation
-  //   ()
-  //     ++pokemon.likes;
-  //     likeNum.textContent = pokemon.likes;
-  //   });
-  // }
-  
 
   return (
     <div class="py-6 px-4 sm:p-6 md:py-10 md:px-8">

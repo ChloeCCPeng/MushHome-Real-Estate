@@ -28,7 +28,27 @@ end
 
 puts " 🏡 Creating houses "
 20.times do
-    House.create(address: Faker::Address.full_address, lotSizeAcres: rand(0.1..40), lotSizeSquareFeet: rand(1500..4500), listPrice: rand(200000..5000000), bathroomsTotal: rand(1..10), bedroomsTotal: rand(1..15), photo: Faker::LoremFlickr.image)
+    House.create(
+        address: Faker::Address.full_address, 
+        lotSizeAcres: rand(0.1..40), 
+        lotSizeSquareFeet: rand(1500..4500), 
+        listPrice: rand(200000..5000000), 
+        bathroomsTotal: rand(1..10), 
+        bedroomsTotal: rand(1..15), 
+        photo: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8aG91c2UlMjBleHRlcmlvcnxlbnwwfHwwfHw%3D&w=1000&q=80",
+        # street: Faker::Address.street_address,
+        # city: Faker::Address.city,
+        # state: Faker::Address.state_abbr,
+        # postcde: Faker::Address.postcode,
+        associationFee: rand(0..500),
+        fireplacesTotal: rand(0..1),
+        publicRemarks: "Gorgeous two-story brick home located in the sought-after Eastover neighborhood.",
+        yearBuilt: rand(1950..2022),
+        propertySubType: "Single Family Residence",
+        flooring: "Harwood",
+        frontageType: "Golf Course",
+        roof: "Metal"
+    )
 end
 
 puts " Done seeding "

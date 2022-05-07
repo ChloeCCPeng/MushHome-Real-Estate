@@ -10,11 +10,10 @@ function MyWatchList({onWatch, list}) {
     });
   }
  
-  console.log(list, onWatch, watchListComponent, "is it working?")
+  console.log(list, "is it working?")
 
   return (
     <div className="card">My Watch List{watchListComponent}</div>
-
   )
 }
 

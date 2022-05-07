@@ -2,6 +2,7 @@ import React from 'react'
 import UserCard from './UserCard'
 import MyListing from './MyListing'
 import MyWatchList from './MyWatchList'
+import NavBar from './NavBar'
 
 function Account({user, onWatch, list}) {
 
@@ -10,6 +11,7 @@ function Account({user, onWatch, list}) {
 
   return (
     <div>
+    <NavBar/>
         <UserCard user={user}/>
         <MyListing />
         <MyWatchList list={list} onWatch={onWatch}/>

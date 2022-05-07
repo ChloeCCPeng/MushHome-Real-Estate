@@ -6,13 +6,14 @@ import Account from "./components/Account";
 import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 import { useNavigate } from "react-router-dom";
-// import Search from "./components/Search";
-// import './App.css';
+
 
 function App() {
+  
   // const [state, setState] = useState([]);
   const [user, setUser] = useState("");
   let navigate = useNavigate();
+
 
   useEffect(() => {
     // auto-login
@@ -24,6 +25,7 @@ function App() {
     });
   }, []);
 
+  
   return (
     <>
       <Routes>
