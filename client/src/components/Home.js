@@ -16,7 +16,6 @@ function Home() {
   const [loading, setLoading] = useState(false);
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
-  // const [selectedPrice, setSelectedPrice] = useState("All")
   
   useEffect(() => {
     setLoading (true);
@@ -37,6 +36,12 @@ function Home() {
       setWatchedHouse([...watchedHouse, wHouse])
       console.log(wHouse)
     }
+  }
+
+  function onUnWatch (uHouse){
+    const updatedWatch = watchedHouse.filter(house => house.id !== uHouse.id)
+    setWatchedHouse(updatedWatch)
+    console.log(uHouse)
   }
 
   if (loading) {
@@ -61,15 +66,19 @@ function Home() {
       return selectedLocation === "All" || house.state === selectedLocation
     })
   }
-  console.log(list)
+
+  const houseRendering = list.map((house)=> {
+    return <Filter key={house.id} house={house} selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
+})
+
 
   console.log(list, "is it define?")
   return (
     <div>
        <NavBar user ={user} setUser ={setUser}/>
+       <div>{houseRendering}</div>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
-        <Filter selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay} onWatch={onWatch}/>
         {/* <Listing list={list} onDelete={onDelete}/> */}
         <HouseRenovationIdeas />
         <HouseMarketReport />

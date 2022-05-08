@@ -2,14 +2,10 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useState, useContext } from 'react';
-// import { UserContext } from './UserContext';
 
 function NavBar({ user, setUser, handleLoginClick}) {
 
-  // console.log (user);
-    // const history = useHistory();
     let navigate = useNavigate();
-
 
     function handleLogoutClick() {
       fetch("/logout", { method: "DELETE" }).then((r) => {
@@ -24,7 +20,7 @@ function NavBar({ user, setUser, handleLoginClick}) {
       <div class="sidebar">
         <nav class="static text-slate-200 px-8" >
         {!user ? 
-        <button as={Link} exact to="/login" onClick={handleLoginClick} >Login</button> 
+        <button as={Link} path="/login" onClick={handleLoginClick} >Login</button> 
         :
         <button variant="outline" onClick={handleLogoutClick}> Logout</button>
         }
