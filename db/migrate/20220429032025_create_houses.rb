@@ -1,7 +1,7 @@
 class CreateHouses < ActiveRecord::Migration[6.1]
   def change
     create_table :houses do |t|
-      t.string :address
+      # t.string :address
       t.integer :lotSizeAcres
       t.integer :lotSizeSquareFeet
       t.integer :associationFee
@@ -82,7 +82,11 @@ class CreateHouses < ActiveRecord::Migration[6.1]
       t.text :greenEnergyEfficient
       t.integer :walkScore
       t.integer :user_id
-      
+      t.string :street
+      t.string :city
+      t.string :state
+      t.string :postcde
+
       t.timestamps
     end
   end
