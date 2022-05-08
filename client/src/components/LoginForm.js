@@ -32,7 +32,7 @@ function LoginForm({ onLogin }) {
         r.json().then((user) => {
           onLogin(user);
         console.log("logged in");
-        navigate("/account")
+        navigate("/")
       })
       } else {
         r.json().then((err) => setErrors(err.errors));
