@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { Suspense, lazy } from 'react';
 import Search from './Search'
 import Filter from './Filter'
 import Listing from './Listing'
@@ -8,6 +7,7 @@ import HouseRenovationIdeas from './HouseRenovationIdeas'
 import PreApproved from './PreApproved'
 import Account from './Account'
 import NavBar from './NavBar'
+import FilterRender from './FilterRender'
 
 function Home() {
 
@@ -15,18 +15,24 @@ function Home() {
   const [user, setUser] = useState ([])
   const [watchedHouse, setWatchedHouse] = useState([])
   // const [loading, setLoading] = useState(false);
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false);
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
 
   useEffect(() => {
-    setTimeout(() => {
+    setLoading (true);
     fetch("/houses")
     .then(res => res.json())
     .then(data => setList(data))
+    // .then(data => console.log(data))
     .finally(() => setLoading (false))
-  }, 2000);
-     }, [])
+  }, [])
+
+
+
+  if (loading) {
+    return <div class="ring">Loading<span class="ring-span"></span></div>
+  }
 
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)
@@ -47,39 +53,36 @@ function Home() {
     console.log(uHouse)
   }
 
-  if (loading) {
-    return <div class="ring">Loading<span class="ring-span"></span></div>
-  }
-
   // filter function
   function onLocationChange(location) {
     setSelectedLocation(location)
   }
 
-  let listToDisplay;
-  if (list) {
-    listToDisplay = list.filter(house => {
-      return selectedLocation === "All" || house.state === selectedLocation;
-    });
-  }
+  // let listToDisplay;
+  // if (list) {
+  //   listToDisplay = list.filter(house => {
+  //     return selectedLocation === "All" || house.state === selectedLocation;
+  //   });
+  // }
 
-  let userList;
-  if (list) {
-    userList = list.filter(house => {
-      return selectedLocation === "All" || house.state === selectedLocation
-    })
-  }
+//   let listToDisplay = list;
+// if (selectedLocation!=="All") {
+//     listToDisplay = listToDisplay.filter((house) => house.state===selectedLocation)
+// }
 
-  const houseRendering = list.map((house)=> {
-    console.log(house, +1)
-    return <Filter key={house.id} house={house} selectedLocation={selectedLocation} onLocationChange={onLocationChange} listToDisplay={listToDisplay} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
-})
+
+  // const houseRendering = list.map((house)=> {
+  //   console.log(house, +1)
+  //   return
+  // })
 
   console.log(list, "is it define?")
   return (
     <div>
-       <NavBar user ={user} setUser ={setUser}/>
-       <div>{houseRendering}</div>
+      <NavBar user ={user} setUser ={setUser}/>
+      {/* <div>{houseRendering}</div> */}
+      <Filter setSelectedLocation={setSelectedLocation} onLocationChange={onLocationChange} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
+      <FilterRender selectedLocation={selectedLocation} list={list}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}
