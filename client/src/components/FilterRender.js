@@ -1,5 +1,6 @@
 import React from 'react'
 import RenderHouse from './RenderHouse'
+import HouseDetail from './HouseDetail';
 
 function FilterRender({selectedLocation, list}) {
 
@@ -14,12 +15,11 @@ function FilterRender({selectedLocation, list}) {
         )}
     )
 
-    
-
     // console.log(listToDisplay, listToRender)
   return (
 
     <div>{listToRender}</div>   
+    // onClick={RenderHouse}
   )
 }
 

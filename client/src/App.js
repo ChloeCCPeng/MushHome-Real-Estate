@@ -6,6 +6,7 @@ import Account from "./components/Account";
 import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 import { useNavigate } from "react-router-dom";
+import HouseDetail from "./components/HouseDetail";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
         <Route path="/account" element={<Account /> }/>
         <Route path="/listing" element={<Listing /> }/>
         <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
+        <Route path="/houses/:id" element={<HouseDetail />}/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>
