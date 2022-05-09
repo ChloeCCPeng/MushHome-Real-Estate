@@ -14,7 +14,9 @@ function FilterRender({selectedLocation, list}) {
         )}
     )
 
-    console.log(listToDisplay, listToRender)
+    
+
+    // console.log(listToDisplay, listToRender)
   return (
 
     <div>{listToRender}</div>   

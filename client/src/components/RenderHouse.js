@@ -1,6 +1,7 @@
 import React from 'react'
 
 function RenderHouse({houseToDisplay}) {
+    
   return (
     <div class="py-6 px-4 sm:p-6 md:py-10 md:px-8">
     <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1" >
