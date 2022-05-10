@@ -7,6 +7,8 @@ import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 import { useNavigate } from "react-router-dom";
 import HouseDetail from "./components/HouseDetail";
+import HouseRenovationIdeas from "./components/HouseRenovationIdeas";
+import Tools from "./components/Tools";
 
 
 function App() {
@@ -36,7 +38,9 @@ function App() {
         <Route path="/account" element={<Account /> }/>
         <Route path="/listing" element={<Listing /> }/>
         <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
+        <Route path="/houseRenovationIdeas" element={<HouseRenovationIdeas /> }/>
         <Route path="/houses/:id" element={<HouseDetail />}/>
+        <Route path="/tools" element={<Tools />}/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>

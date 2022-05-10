@@ -86,9 +86,9 @@ function Home() {
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}
-        <HouseRenovationIdeas />
-        <HouseMarketReport />
-        <PreApproved />
+        {/* <HouseRenovationIdeas /> */}
+        {/* <HouseMarketReport />
+        <PreApproved /> */}
     </div>
   )
 }

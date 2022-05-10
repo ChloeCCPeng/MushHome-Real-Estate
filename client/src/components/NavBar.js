@@ -20,15 +20,15 @@ function NavBar({ user, setUser, handleLoginClick}) {
       <div class="sidebar">
         <nav class="static text-slate-200 px-8" >
         {!user ? 
-        <button as={Link} path="/login" onClick={handleLoginClick} >Login</button> 
+        <button as={Link} path="/login" onClick={handleLoginClick} >LOGIN</button> 
         :
-        <button variant="outline" onClick={handleLogoutClick}> Logout</button>
+        <button variant="outline" onClick={handleLogoutClick}> LOGOUT</button>
         }
       </nav>
-        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/tools" exact>TOOLS</Link>
         <Link class="static text-slate-200 px-10 float-right" to="/account" exact>ACCOUNT</Link>
-  
-
+        <Link class="static text-slate-200 px-10 float-right" to="/houseRenovationIdeas" exact>RENOVATION</Link>
+        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>
     </div>
   );
 }
