@@ -17,7 +17,7 @@ function FilterRender({selectedLocation, list, onDelete}) {
 
   return (
 
-    <div>{listToRender}</div>   
+    <div id="scroll" >{listToRender}</div>   
     // onClick={RenderHouse}
   )
 }
