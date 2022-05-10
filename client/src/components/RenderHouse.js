@@ -1,12 +1,30 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import HouseDetail from './HouseDetail'
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
-function RenderHouse({houseToDisplay, onDelete}) {
 
+function RenderHouse({houseToDisplay, onDelete, setHouseToDisplay}) {
+
+    const { id } = useParams();
     let navigate = useNavigate();
-    // const history = useHistory();
-    // const [ isDetail, setIsDetail ] = useState(false)
+
+
+    useEffect(() => {
+        fetch(`/houses/${houseToDisplay.id}`)
+        .then(res => res.json())
+        .then(data => setHouseToDisplay(data))
+    }, [])
+
+    function clickToRender() {
+        // e.preventDefault();
+        console.log('You clicked the house', houseToDisplay);
+        // dynamically navigate to houseDetail
+        // <HouseDetail onDelete={onDelete} houseToDisplay={houseToDisplay}/>
+        setHouseToDisplay(houseToDisplay)
+        navigate(`/houses/${houseToDisplay.id}`, houseToDisplay);
+        // navigate.push(`/houses/${houseToDisplay.id}`, {houseToDisplay});
+    }
+
 
     // const HouseDetail = (houseToDisplay) => {
     //     const navigate = useNavigate();
@@ -15,17 +33,10 @@ function RenderHouse({houseToDisplay, onDelete}) {
     //     )
     // }
 
+    // const mappedHouses = houseRender.map((houseToDisplay)=> 
+    //     <HouseDetail key={houseToDisplay.id} houseToDisplay={houseToDisplay} onDelete={onDelete} />)
 
-    function clickToRender(e) {
-        // e.preventDefault();
-        console.log('You clicked the house', houseToDisplay);
-        // dynamically navigate to houseDetail
-        <HouseDetail onDelete={onDelete} houseToDisplay={houseToDisplay}/>
-        navigate(`/houses/${houseToDisplay.id}`, houseToDisplay);
-        // navigate.push(`/houses/${houseToDisplay.id}`, {houseToDisplay});
-    }
-
-return (
+    return (
     <div id="outer" 
     // class="grid overflow-x-auto snap-x grid gap-4 "
     >
@@ -34,7 +45,7 @@ return (
         >
             <div id="card" 
             class=" relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1" 
-            onClick={() => clickToRender({houseToDisplay})}>
+            onClick={() => clickToRender()}>
                 <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
                 <h4>Bathroom: {houseToDisplay.bathroomsTotal}</h4>
                 <h4>Bedroom: {houseToDisplay.bedroomsTotal}</h4>

@@ -12,7 +12,7 @@ function Account({user, onWatch, list}) {
   return (
     <div>
     <NavBar/>
-        <UserCard user={user}/>
+        {/* <UserCard user={user}/> */}
         <MyListing />
         <MyWatchList list={list} onWatch={onWatch}/>
     </div>

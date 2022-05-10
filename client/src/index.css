@@ -120,30 +120,11 @@ h4, p {
   }
 }
 
-* The heart of the matter */
-.testimonial-group > .row {
-  overflow-x: auto;
-  white-space: nowrap;
-}
-.testimonial-group > .row > .col-xs-4 {
-  display: inline-block;
-  float: none;
-}
-
-/* Decorations */
-.col-xs-4 { color: #fff; font-size: 48px; padding-bottom: 20px; padding-top: 18px; }
-.col-xs-4:nth-child(3n+1) { background: #c69; }
-.col-xs-4:nth-child(3n+2) { background: #9c6; }
-.col-xs-4:nth-child(3n+3) { background: #69c; }
-
-
 #scroll {
-  /* height: 4px; */
-
-
   display: flex;
   overflow-x: auto;
 }
+
 #container {
   display: inline-block;
   padding: 10px;
@@ -156,6 +137,21 @@ h4, p {
   /* width: 20%; */
 }
 
-#card {
+#select {
+  margin-left: 10px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  width: 100%;
+  padding: 10px 30px;
+  background: #feb13b;;
+  color: rgba(0,0,0,.5);
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 
+#select::-ms-expand {
+  display: none;
 }

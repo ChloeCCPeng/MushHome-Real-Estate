@@ -8,15 +8,15 @@ import FilterRender from './FilterRender';
 function Filter({setSelectedLocation, onLocationChange, onWatch, onUnWatch, isWatched, house}) {
 
   return (
-    <div>
-      <h1>Filter by </h1>
+    <div class="relative flex justify-center pt-10 pb-10">
+      <h1 class="sticky text-xl" > <i class="fa-solid fa-location-dot"></i> What state are you looking for? </h1>
         <FormControl >
-            <InputLabel id="select-label">Location</InputLabel>
+            <InputLabel id="select-label" class="text-slate-200 px-8"></InputLabel>
                 <Select
                     labelId="select-label"
-                    id="select"
+                    id="select" class="outline-yellow-400"
                     onChange={(e)=>setSelectedLocation(e.target.value)}
-                    >
+                    > 
                     <MenuItem value="All">All</MenuItem>
                     <MenuItem value="AL">AL</MenuItem>
                     <MenuItem value="AK">AK</MenuItem>

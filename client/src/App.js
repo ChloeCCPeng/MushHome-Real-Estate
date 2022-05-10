@@ -7,14 +7,16 @@ import Listing from "./components/Listing";
 import HouseMarketReport from "./components/HouseMarketReport";
 import { useNavigate } from "react-router-dom";
 import HouseDetail from "./components/HouseDetail";
+import HouseRenovationIdeas from "./components/HouseRenovationIdeas";
+import Tools from "./components/Tools";
 
 
 function App() {
   
   // const [state, setState] = useState([]);
   const [user, setUser] = useState("");
+  const [houseToDisplay, setHouseToDisplay] = useState("")
   let navigate = useNavigate();
-
 
   useEffect(() => {
     // auto-login
@@ -30,13 +32,15 @@ function App() {
   return (
     <>
       <Routes>
-        <Route exact path="/" element={<Home />}/> 
+        <Route exact path="/" element={<Home setHouseToDisplay={setHouseToDisplay}/>}/> 
         <Route path="/login" element={<Login onLogin={setUser} />}/>
         {/* <Route path="/logout" element={<Logout onLogout={setUser} />}/> */}
         <Route path="/account" element={<Account /> }/>
         <Route path="/listing" element={<Listing /> }/>
         <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
-        <Route path="/houses/:id" element={<HouseDetail />}/>
+        <Route path="/houseRenovationIdeas" element={<HouseRenovationIdeas /> }/>
+        <Route path="/houses/:id" element={<HouseDetail houseToDisplay={houseToDisplay}/>}/>
+        <Route path="/tools" element={<Tools />}/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>
