@@ -9,12 +9,11 @@ import Account from './Account'
 import NavBar from './NavBar'
 import FilterRender from './FilterRender'
 
-function Home() {
+function Home({setHouseToDisplay}) {
 
   const [list, setList] = useState ([])
   const [user, setUser] = useState ([])
   const [watchedHouse, setWatchedHouse] = useState([])
-  // const [loading, setLoading] = useState(false);
   const [loading, setLoading] = useState(false);
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
@@ -27,8 +26,6 @@ function Home() {
     // .then(data => console.log(data))
     .finally(() => setLoading (false))
   }, [])
-
-
 
   if (loading) {
     return <div class="ring">Loading<span class="ring-span"></span></div>
@@ -82,7 +79,7 @@ function Home() {
       <NavBar user ={user} setUser ={setUser}/>
       {/* <div>{houseRendering}</div> */}
       <Filter setSelectedLocation={setSelectedLocation} onLocationChange={onLocationChange} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
-      <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete}/>
+      <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}

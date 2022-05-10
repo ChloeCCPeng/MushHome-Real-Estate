@@ -1,7 +1,7 @@
 import React from 'react'
 import RenderHouse from './RenderHouse'
 
-function FilterRender({selectedLocation, list, onDelete}) {
+function FilterRender({selectedLocation, list, onDelete, setHouseToDisplay}) {
 
     // let listToDisplay = list;
     if (selectedLocation!=="All") {
@@ -10,8 +10,8 @@ function FilterRender({selectedLocation, list, onDelete}) {
 
     let listToRender = list.map((houseToDisplay) => {
         return (
-            <RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id} onDelete={onDelete} />
-        )}
+            <RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
+    )}
     )
 
 
