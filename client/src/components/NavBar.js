@@ -39,7 +39,3 @@ account_circle
 }
 
     export default NavBar;
-
-    // <button class="bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onDelete={handleDelete} ><i class="material-icons">
-    // highlight_off 
-    // </i> Sold! Delete from the Market </button> 
