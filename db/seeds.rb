@@ -38,29 +38,30 @@ puts " 💬 Creating messages "
 end
 
 puts " 🏡 Creating houses "
-# 100.times do
-#     House.create(
-#         # address: Faker::Address.full_address, 
-#         lotSizeAcres: rand(0.1..4), 
-#         lotSizeSquareFeet: rand(1500..4500), 
-#         listPrice: rand(200000..5000000), 
-#         bathroomsTotal: rand(1..10), 
-#         bedroomsTotal: rand(1..15), 
-#         photo: house_images.sample,
-#         street: Faker::Address.street_address,
-#         city: Faker::Address.city,
-#         state: Faker::Address.state_abbr,
-#         postcde: Faker::Address.postcode,
-#         associationFee: rand(0..500),
-#         fireplacesTotal: rand(0..1),
-#         publicRemarks: "Gorgeous two-story brick home located in the sought-after Eastover neighborhood.",
-#         yearBuilt: rand(1950..2022),
-#         propertySubType: "Single Family Residence",
-#         flooring: "Harwood",
-#         frontageType: "Golf Course",
-#         roof: "Metal"
-#     )
-# end
+50.times do
+    House.create(
+        # address: Faker::Address.full_address, 
+        lotSizeAcres: rand(0.1..4), 
+        lotSizeSquareFeet: rand(1500..4500), 
+        listPrice: rand(200000..5000000), 
+        bathroomsTotal: rand(1..10), 
+        bedroomsTotal: rand(1..15), 
+        photo: house_images.sample,
+        street: Faker::Address.street_address,
+        city: Faker::Address.city,
+        state: Faker::Address.state_abbr,
+        postcde: Faker::Address.postcode,
+        associationFee: rand(0..500),
+        fireplacesTotal: rand(0..1),
+        publicRemarks: "Gorgeous two-story brick home located in the sought-after Eastover neighborhood.",
+        yearBuilt: rand(1950..2022),
+        propertySubType: "Single Family Residence",
+        flooring: "Harwood",
+        frontageType: "Golf Course",
+        roof: "Metal"
+    )
+end
+
     House.create([
         {
             lotSizeAcres: 1, 

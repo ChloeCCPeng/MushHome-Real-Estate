@@ -7,18 +7,6 @@ import FilterRender from './FilterRender';
 
 function Filter({setSelectedLocation, onLocationChange, onWatch, onUnWatch, isWatched, house}) {
 
-  // function setSelectedLocation(event) {
-  //   onLocationChange(event.target.value)
-  // }
-
-  // function handleClick(){
-  //   isWatched? onWatch(house): onUnWatch(house)
-  // }
-
-  // function handleRender (e) {
-  //   e.target.value.toggle('active')
-  // }
-// console.log
   return (
     <div>
       <h1>Filter by </h1>

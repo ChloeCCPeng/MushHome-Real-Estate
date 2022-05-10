@@ -1,21 +1,20 @@
 import React from 'react'
 import RenderHouse from './RenderHouse'
-import HouseDetail from './HouseDetail';
 
-function FilterRender({selectedLocation, list}) {
+function FilterRender({selectedLocation, list, onDelete}) {
 
-    let listToDisplay = list;
+    // let listToDisplay = list;
     if (selectedLocation!=="All") {
-        listToDisplay = listToDisplay.filter((house) => house.state===selectedLocation)
+        list = list.filter((house) => house.state===selectedLocation)
     }
 
-    let listToRender = listToDisplay.map((houseToDisplay) => {
+    let listToRender = list.map((houseToDisplay) => {
         return (
-            <RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id}/>
+            <RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id} onDelete={onDelete} />
         )}
     )
 
-    // console.log(listToDisplay, listToRender)
+
   return (
 
     <div>{listToRender}</div>   

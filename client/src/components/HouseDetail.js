@@ -1,15 +1,32 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import NavBar from './NavBar'
+import { useParams} from 'react-router-dom'
 
 
-function HouseDetail({houseToDisplay}) {
+function HouseDetail({houseToDisplay, onDelete}) {
 
- 
-  // console.log(houseToDisplay)
+  const [houseId, setHouseId] = useState ([])
+  const { id } = useParams();
+  // const h
+  
+
+  function handleDelete(e){
+    e.stopPropagation();
+    fetch(`http;//localhost:3000/houses/${houseToDisplay.id}`,{
+      method: 'DELETE',
+    })
+    .then(res => res.json())
+    .then(()=> console.log('you are deleting', houseToDisplay))
+  }
+
+  console.log(houseToDisplay)
   return (
     <div className="HouseDetail">
       <NavBar />
       <h1>House Details</h1>
+      <button class="bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
+highlight_off 
+</i> Sold! Delete from the Market </button> 
       {/* <h4>Description: {houseToDisplay.publicRemarks} </h4> */}
       {/* <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
       <h4>Bathroom: {houseToDisplay.bathroomsTotal}</h4>
