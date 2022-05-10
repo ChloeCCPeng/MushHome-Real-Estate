@@ -82,7 +82,7 @@ function Home() {
       <NavBar user ={user} setUser ={setUser}/>
       {/* <div>{houseRendering}</div> */}
       <Filter setSelectedLocation={setSelectedLocation} onLocationChange={onLocationChange} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
-      <FilterRender selectedLocation={selectedLocation} list={list}/>
+      <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}
