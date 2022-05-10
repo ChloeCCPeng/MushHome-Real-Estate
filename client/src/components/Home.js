@@ -78,12 +78,14 @@ function Home({setHouseToDisplay}) {
     <div>
       <NavBar user ={user} setUser ={setUser}/>
       {/* <div>{houseRendering}</div> */}
+      <br/>
+      <br/>
       <Filter setSelectedLocation={setSelectedLocation} onLocationChange={onLocationChange} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
       <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}
-        {/* <HouseRenovationIdeas /> */}
+        <HouseRenovationIdeas />
         {/* <HouseMarketReport />
         <PreApproved /> */}
     </div>
