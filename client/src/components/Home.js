@@ -8,6 +8,7 @@ import PreApproved from './PreApproved'
 import Account from './Account'
 import NavBar from './NavBar'
 import FilterRender from './FilterRender'
+import Footer from './Footer'
 
 function Home({setHouseToDisplay}) {
 
@@ -71,6 +72,7 @@ function Home({setHouseToDisplay}) {
         <HouseRenovationIdeas />
         {/* <HouseMarketReport />
         <PreApproved /> */}
+        <Footer />
     </div>
   )
 }

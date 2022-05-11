@@ -10,6 +10,7 @@ import HouseDetail from "./components/HouseDetail";
 import HouseRenovationIdeas from "./components/HouseRenovationIdeas";
 import Tools from "./components/Tools";
 import NewHouseForm from "./components/NewHouseForm";
+import Mortgage from "./components/Mortgage";
 
 
 function App() {
@@ -41,7 +42,8 @@ function App() {
         <Route path="/houseMarketReport" element={<HouseMarketReport /> }/>
         <Route path="/houseRenovationIdeas" element={<HouseRenovationIdeas /> }/>
         <Route path="/houses/:id" element={<HouseDetail houseToDisplay={houseToDisplay}/>}/>
-        <Route path="/tools" element={<Tools />}/>
+        {/* <Route path="/tools" element={<Tools />}/> */}
+        <Route path="/mortgage" element={<Mortgage />}/>
         <Route path="/houses/new" element={<NewHouseForm />}/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
