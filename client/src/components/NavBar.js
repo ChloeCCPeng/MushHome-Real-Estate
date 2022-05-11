@@ -32,7 +32,7 @@ person_off
 </button>
         }
       </nav>
-        <Link class="static text-slate-200 px-10 float-right" to="/tools" exact>TOOLS</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/mortgage" exact>MORTGAGE</Link>
         <Link class="static text-slate-200 px-10 float-right" to="/account" exact>ACCOUNT</Link>
         {/* <Link class="static text-slate-200 px-10 float-right" to="/houseRenovationIdeas" exact>RENOVATION</Link> */}
         <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>

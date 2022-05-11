@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from './NavBar'
+import Footer from './Footer'
 
 function HouseDetail({houseToDisplay, onDelete}) {
 
@@ -39,6 +40,7 @@ function HouseDetail({houseToDisplay, onDelete}) {
             <img src="https://rockindeco.com/wp-content/uploads/2018/03/Modern-and-Contemporary-Front-Yard-Landscaping.jpg" class="w-full h-60 object-cover rounded-lg"></img>
             <img src="https://tedsgardens.com/wp-content/uploads/2019/04/modern-front-entry-planting-modern-planters-8.jpg" class="w-full h-60 object-cover rounded-lg"></img>
           </div> 
+          <div class="ml-6">
             <h1 class="text-xl pt-6">{houseToDisplay.street}</h1>
             <h1 class="text-xl pb-6">{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcde}</h1>
             <h4>List Price: ${houseToDisplay.listPrice}</h4> 
@@ -50,12 +52,20 @@ function HouseDetail({houseToDisplay, onDelete}) {
             <h4>Property Type: {houseToDisplay.propertySubType}</h4>
             <h4>Frontage Type: {houseToDisplay.frontageType}</h4>
             <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
-            <h4>Description: {houseToDisplay.publicRemarks} </h4>
+            <h4 class="mb-6">Description: {houseToDisplay.publicRemarks} </h4>
+            <div class="flex justify-center ">
+              <a href="mailto: {houseToDisplay.email}" class="max-h-11 whitespace-nowrap mt-6 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" > <span class="material-icons">mail</span> Contact Seller </a> 
+              <a href="/" class="max-h-11 my-6 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" > <span class="material-icons">search</span>
+ View More Houses </a> 
+              <a href="mailto: {houseToDisplay.email}" class=" max-h-11 whitespace-nowrap mt-6 pb-0 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" ><span class="material-icons">local_offer</span> Make an Offer</a> 
+            </div>
             {/* <button class="mt-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
             highlight_off title="View More" onClick={<Home />}
             </i> View More </button>  */}
             {/* <button class="float-left text-yellow-400 material-icons" onClick={()=>onWatch(houseToDisplay)}> favorite_border</button> */}
+          </div> 
         </div>
+        <Footer />
     </div>
   )
 }
