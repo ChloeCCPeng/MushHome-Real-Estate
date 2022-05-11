@@ -8,30 +8,32 @@ import PreApproved from './PreApproved'
 import Account from './Account'
 import NavBar from './NavBar'
 import FilterRender from './FilterRender'
-import Footer from './Footer'
+import NewHouseForm from './NewHouseForm'
 
-function Home({setHouseToDisplay}) {
+// import Footer from './Footer'
 
-  const [list, setList] = useState ([])
+function Home({setHouseToDisplay, list, setList}) {
+
+
   const [user, setUser] = useState ([])
   const [watchedHouse, setWatchedHouse] = useState([])
-  const [loading, setLoading] = useState(false)
+  // const [loading, setLoading] = useState(false)
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
   const [isError, setIsError] = useState(false)
   
-  useEffect(() => {
-    setLoading (true)
-    fetch("/houses")
-    .then(res => res.json())
-    .then(data => setList(data))
-    // .then(data => console.log(data))
-    .finally(() => setLoading (false))
-  }, [])
+  // useEffect(() => {
+  //   setLoading (true)
+  //   fetch("/houses")
+  //   .then(res => res.json())
+  //   .then(data => setList(data))
+  //   // .then(data => console.log(data))
+  //   .finally(() => setLoading (false))
+  // }, [])
 
-  if (loading) {
-    return <div class="ring">Loading<span class="ring-span"></span></div>
-  }
+  // if (loading) {
+  //   return <div class="ring">Loading<span class="ring-span"></span></div>
+  // }
 
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)
@@ -68,11 +70,12 @@ function Home({setHouseToDisplay}) {
       <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
+        <NewHouseForm list={list} setList={setList}/>
         {/* <Listing list={list} onDelete={onDelete}/> */}
         <HouseRenovationIdeas />
         {/* <HouseMarketReport />
         <PreApproved /> */}
-        <Footer />
+        {/* <Footer /> */}
     </div>
   )
 }
