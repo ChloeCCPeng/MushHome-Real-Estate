@@ -14,12 +14,13 @@ function Home({setHouseToDisplay}) {
   const [list, setList] = useState ([])
   const [user, setUser] = useState ([])
   const [watchedHouse, setWatchedHouse] = useState([])
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(false)
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
-
+  const [isError, setIsError] = useState(false)
+  
   useEffect(() => {
-    setLoading (true);
+    setLoading (true)
     fetch("/houses")
     .then(res => res.json())
     .then(data => setList(data))
@@ -54,24 +55,6 @@ function Home({setHouseToDisplay}) {
   function onLocationChange(location) {
     setSelectedLocation(location)
   }
-
-  // let listToDisplay;
-  // if (list) {
-  //   listToDisplay = list.filter(house => {
-  //     return selectedLocation === "All" || house.state === selectedLocation;
-  //   });
-  // }
-
-//   let listToDisplay = list;
-// if (selectedLocation!=="All") {
-//     listToDisplay = listToDisplay.filter((house) => house.state===selectedLocation)
-// }
-
-
-  // const houseRendering = list.map((house)=> {
-  //   console.log(house, +1)
-  //   return
-  // })
 
   console.log(list, "is it define?")
   return (
