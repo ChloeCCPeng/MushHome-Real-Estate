@@ -2,6 +2,7 @@ import React from "react";
 import { Link, useHistory } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import { useState, useContext } from 'react';
+import NewHouseForm from "./NewHouseForm";
 
 function NavBar({ user, setUser, handleLoginClick}) {
 
@@ -21,19 +22,21 @@ function NavBar({ user, setUser, handleLoginClick}) {
       <br/>
         <nav class="static text-slate-200 px-8" >
         {!user ? 
-        <button as={Link} path="/login" onClick={handleLoginClick} ><span class="material-icons">
-account_circle
-</span></button> 
+        <Link to="/login"><button><span class="material-icons">
+person
+</span>LOGIN</button> </Link>
         :
-        <button variant="outline" onClick={handleLogoutClick}> <span class="material-icons">
-account_circle
-</span></button>
+        <button variant="outline" onClick={handleLogoutClick}><span class="material-icons">
+person_off
+</span>LOGOUT
+</button>
         }
       </nav>
         <Link class="static text-slate-200 px-10 float-right" to="/tools" exact>TOOLS</Link>
         <Link class="static text-slate-200 px-10 float-right" to="/account" exact>ACCOUNT</Link>
         {/* <Link class="static text-slate-200 px-10 float-right" to="/houseRenovationIdeas" exact>RENOVATION</Link> */}
         <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>
+        <Link class="static text-slate-200 px-10 float-right"  exact to="/houses/new" >LIST A HOUSE!</Link>
     </div>
   );
 }

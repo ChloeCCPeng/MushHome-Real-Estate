@@ -9,6 +9,7 @@ import { useNavigate } from "react-router-dom";
 import HouseDetail from "./components/HouseDetail";
 import HouseRenovationIdeas from "./components/HouseRenovationIdeas";
 import Tools from "./components/Tools";
+import NewHouseForm from "./components/NewHouseForm";
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
         <Route path="/houseRenovationIdeas" element={<HouseRenovationIdeas /> }/>
         <Route path="/houses/:id" element={<HouseDetail houseToDisplay={houseToDisplay}/>}/>
         <Route path="/tools" element={<Tools />}/>
+        <Route path="/houses/new" element={<NewHouseForm />}/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>
