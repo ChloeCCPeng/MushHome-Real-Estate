@@ -6,7 +6,7 @@ export class Tools extends Component {
   render() {
     return (
       <div>Tools
-        <HouseMarketReport />
+        {/* <HouseMarketReport /> */}
         <PreApproved />
       </div>
     )

@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import NavBar from './NavBar'
 
-
 function HouseDetail({houseToDisplay, onDelete}) {
+
 
   function handleDelete(e){
     e.stopPropagation();
@@ -39,18 +39,21 @@ function HouseDetail({houseToDisplay, onDelete}) {
             <img src="https://rockindeco.com/wp-content/uploads/2018/03/Modern-and-Contemporary-Front-Yard-Landscaping.jpg" class="w-full h-60 object-cover rounded-lg"></img>
             <img src="https://tedsgardens.com/wp-content/uploads/2019/04/modern-front-entry-planting-modern-planters-8.jpg" class="w-full h-60 object-cover rounded-lg"></img>
           </div> 
-            <h1>{houseToDisplay.street}</h1>
-            <h1>{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcode}</h1>
+            <h1 class="text-xl pt-6">{houseToDisplay.street}</h1>
+            <h1 class="text-xl pb-6">{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcde}</h1>
             <h4>List Price: ${houseToDisplay.listPrice}</h4> 
             <h4>Bedroom: {houseToDisplay.bedroomsTotal}</h4>
             <h4>Bathroom: {houseToDisplay.bathroomsTotal}</h4>
             <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
+            <h4>Fireplaces: {houseToDisplay.fireplacesTotal}</h4>
+            <h4>Year Built: {houseToDisplay.yearBuilt}</h4>
+            <h4>Property Type: {houseToDisplay.propertySubType}</h4>
+            <h4>Frontage Type: {houseToDisplay.frontageType}</h4>
+            <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
             <h4>Description: {houseToDisplay.publicRemarks} </h4>
-
-          
-            <button class="bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
-            highlight_off 
-            </i> Sold! Delete from the Market </button> 
+            {/* <button class="mt-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
+            highlight_off title="View More" onClick={<Home />}
+            </i> View More </button>  */}
             {/* <button class="float-left text-yellow-400 material-icons" onClick={()=>onWatch(houseToDisplay)}> favorite_border</button> */}
         </div>
     </div>

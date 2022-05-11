@@ -19,30 +19,13 @@ function RenderHouse({houseToDisplay, onDelete, setHouseToDisplay}) {
         // e.preventDefault();
         console.log('You clicked the house', houseToDisplay);
         // dynamically navigate to houseDetail
-        // <HouseDetail onDelete={onDelete} houseToDisplay={houseToDisplay}/>
         setHouseToDisplay(houseToDisplay)
         navigate(`/houses/${houseToDisplay.id}`, houseToDisplay);
-        // navigate.push(`/houses/${houseToDisplay.id}`, {houseToDisplay});
     }
 
-
-    // const HouseDetail = (houseToDisplay) => {
-    //     const navigate = useNavigate();
-    //     return (
-    //         <div class="relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1" onClick={() => navigate(`/houses/${houseToDisplay.id}`, {replace: true, state: {} })}></div>
-    //     )
-    // }
-
-    // const mappedHouses = houseRender.map((houseToDisplay)=> 
-    //     <HouseDetail key={houseToDisplay.id} houseToDisplay={houseToDisplay} onDelete={onDelete} />)
-
     return (
-    <div id="outer" 
-    // class="grid overflow-x-auto snap-x grid gap-4 "
-    >
-        <div id="container" class="w-80 relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1"
-        // class="scroll-m-8 snap-start snap-center" 
-        >
+    <div id="outer">
+        <div id="container" class="w-80 relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1">
             <div id="card" 
             class=" relative p-3 col-start-1 row-start-1 flex flex-col-reverse rounded-lg bg-gradient-to-t from-black/75 via-black/0 sm:bg-none sm:row-start-2 sm:p-0 lg:row-start-1" 
             onClick={() => clickToRender()}>
@@ -50,8 +33,8 @@ function RenderHouse({houseToDisplay, onDelete, setHouseToDisplay}) {
                 <h4>Bathroom: {houseToDisplay.bathroomsTotal}</h4>
                 <h4>Bedroom: {houseToDisplay.bedroomsTotal}</h4>
                 <h4>List Price: ${houseToDisplay.listPrice}</h4>
-                <h1>{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcode}</h1>
-                <h1>{houseToDisplay.street}</h1>
+                <h1 class="font-semibold pb-2">{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcde}</h1>
+                <h1 class="font-semibold pt-2">{houseToDisplay.street}</h1>
                 <div class="">
                 <img src="https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607" alt="house" 
                 class="w-full h-60 object-cover rounded-lg "
