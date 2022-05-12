@@ -109,7 +109,7 @@ function handleDelete(e) {
               </div>
               <div>
                   <label class="text-slate-400">State</label>
-                  <input required type="text" class="bg-transparent" id="state" name="state" autoComplete="on" onChange={handleChange}/>
+                  <input required type="text" maxlength="2" class="bg-transparent" id="state" name="state" autoComplete="on" onChange={handleChange}/>
               </div>
               <div>
                   <label class="text-slate-400">List Price</label>

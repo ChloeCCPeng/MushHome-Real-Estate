@@ -9,6 +9,8 @@ import Account from './Account'
 import NavBar from './NavBar'
 import FilterRender from './FilterRender'
 import NewHouseForm from './NewHouseForm'
+// import Video from './Video'
+// import Logo from './Logo'
 
 // import Footer from './Footer'
 
@@ -62,10 +64,12 @@ function Home({setHouseToDisplay, list, setList}) {
   console.log(list, "is it define?")
   return (
     <div>
+      {/* <Logo /> */}
       <NavBar user ={user} setUser ={setUser}/>
       {/* <div>{houseRendering}</div> */}
       <br/>
       <br/>
+      {/* <Video /> */}
       <Filter setSelectedLocation={setSelectedLocation} onLocationChange={onLocationChange} isWatched={true} onWatch={onWatch} onUnWatch={onUnWatch} />
       <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
         {/* <Search /> */}
