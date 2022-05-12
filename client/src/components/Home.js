@@ -9,10 +9,7 @@ import Account from './Account'
 import NavBar from './NavBar'
 import FilterRender from './FilterRender'
 import NewHouseForm from './NewHouseForm'
-// import Video from './Video'
-// import Logo from './Logo'
-
-// import Footer from './Footer'
+import Footer from './Footer'
 
 function Home({setHouseToDisplay, list, setList}) {
 
@@ -64,7 +61,6 @@ function Home({setHouseToDisplay, list, setList}) {
   console.log(list, "is it define?")
   return (
     <div>
-      {/* <Logo /> */}
       <NavBar user ={user} setUser ={setUser}/>
       {/* <div>{houseRendering}</div> */}
       <br/>
@@ -79,7 +75,7 @@ function Home({setHouseToDisplay, list, setList}) {
         <HouseRenovationIdeas />
         {/* <HouseMarketReport />
         <PreApproved /> */}
-        {/* <Footer /> */}
+        <Footer />
     </div>
   )
 }
