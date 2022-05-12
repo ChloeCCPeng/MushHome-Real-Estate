@@ -22,9 +22,9 @@ function NavBar({ user, setUser, handleLoginClick, newHouse}) {
       <br/>
         <nav class="static text-slate-200 px-8" >
         {!user ? 
-        <Link to="/login"><button><span class="material-icons">person</span>LOGIN</button> </Link>
+        <Link to="/login"><button><span class="material-icons">person</span> LOGIN </button> </Link>
         :
-        <button variant="outline" onClick={handleLogoutClick}><span class="material-icons">person_off</span>LOGOUT
+        <button variant="outline" onClick={handleLogoutClick}><span class="material-icons">person_off</span> LOGOUT 
 </button>
         }
       </nav>
