@@ -1,26 +1,30 @@
 import React from 'react'
 
+
 function Footer() {
   return (
-    <div>
-        <div> 
+    <div class="rounded md:rounded-lg  ">
+        <div class="flex justify-around mt-20 whitespace-nowrap "> 
           {/* <h1>Footer</h1>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/" class="text-5xl" >LIKE THE IDEA? LET'S CONNECT </a>  */}
 
-                <div class="social-footer-icons">
-                    <a href="https://www.facebook.com/"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                    <a href="https://www.instagram.com/?hl=en"><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                    <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-p" aria-hidden="true"></i></a>
-                    <a href="https://twitter.com/?lang=en"><i class="fa fa-twitter" aria-hidden="true"></i></a>
-                </div>
-
-
-
-
+          <div class="text-white bg-yellow-400 border-none rounded-tl-full text-xs w-3/4 text-center py-6 whitespace-nowrap">
+            <h1 class="text-black">Pre-Sale FAQs</h1>
+            <h1 class="text-black">Services</h1>
+            <h1 class="text-black">Legal Documents</h1>
           </div>
-        <div>
-            {/* <a href="#" class="fa fa-facebook"></a> */}
+          <div class="text-white bg-yellow-400 border-none text-xs w-3/4 text-center py-6 whitespace-nowrap">
+            <h1 class="text-black">About Us </h1>
+            <h1 class="text-black">Contact U</h1>
+            <h1 class="text-black">Legal Documents</h1>
+          </div>
+          <div class="text-black bg-yellow-400 border-none text-xs w-3/4 text-center pt-10 pb-5 whitespace-nowrap">
+            <h1 class="text-black">Web App Design: Chloe Peng</h1>
+            <h1 class="text-black">Logo Design: Jen Peng</h1>
+            <h1 class="text-black">© 2022 Chloe Peng.  All rights reserved.</h1>
+          </div>
         </div>
+
     </div>
   )
 }
