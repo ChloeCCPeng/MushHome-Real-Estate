@@ -10,7 +10,7 @@ function SignUpForm({ onLogin }) {
   const [errors, setErrors] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
   
-  const history = useNavigate();
+  const navigate = useNavigate();
 
   function handleSubmit(e) {
     e.preventDefault();
@@ -30,7 +30,7 @@ function SignUpForm({ onLogin }) {
       setIsLoading(false);
       if (r.ok) {
         r.json().then((user) => onLogin(user));
-        return history.push("/")
+        return navigate("/")
       } else {
         r.json().then((err) => setErrors(err.errors));
       }
@@ -72,7 +72,7 @@ function SignUpForm({ onLogin }) {
       <FormField>
         <Button type="submit">{isLoading ? "Loading..." : "Sign Up"}</Button>
       </FormField>
-      <FormField>
+      <FormField class="text-black">
         {errors.map((err) => (
           <Error key={err}>{err}</Error>
         ))}

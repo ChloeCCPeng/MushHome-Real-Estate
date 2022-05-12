@@ -58,6 +58,7 @@ function LoginForm({ onLogin }) {
 
   return (
     <>
+      <NavBar handleLoginClick={handleLoginClick}/>
       <form onSubmit={handleSubmit} >
         <FormField>
           <Label htmlFor="username">Username</Label>
@@ -67,6 +68,7 @@ function LoginForm({ onLogin }) {
             autoComplete="off"
             value={username}
             onChange={(e) => setUsername(e.target.value)}
+            class="text-black"
           />
         </FormField>
         <FormField>
@@ -77,6 +79,7 @@ function LoginForm({ onLogin }) {
             autoComplete="current-password"
             value={password}
             onChange={(e) => setPassword(e.target.value)}
+            class="text-black"
           />
         </FormField>
         <FormField>
@@ -84,13 +87,13 @@ function LoginForm({ onLogin }) {
             {isLoading ? "Loading..." : "Login"}
           </Button>
         </FormField>
-        <FormField>
+        <FormField class="text-black">
           {errors.map((err) => (
             <Error key={err}>{err}</Error>
           ))}
         </FormField>
       </form>
-      <NavBar handleLoginClick={handleLoginClick}/>
+
     </>
   );
 }
