@@ -7,13 +7,21 @@ function FilterRender({selectedLocation, list, onDelete, setHouseToDisplay}) {
     if (selectedLocation!=="All") {
         list = list.filter((house) => house.state===selectedLocation)
     }
+console.log(list)
 
-    let listToRender = list.map((houseToDisplay) => {
-        return (
-            <RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
-    )}
-    )
+    let listToRender;
 
+    if (list !== []) {
+      listToRender = list.map((houseToDisplay) => {
+        return (<RenderHouse houseToDisplay={houseToDisplay} key={houseToDisplay.id} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>)
+        }
+      ) 
+    } else {
+          console.log("error")
+        }
+    
+
+  
 
   return (
 

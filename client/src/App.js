@@ -61,7 +61,7 @@ function App() {
         <Route path="/houses/new" element={<NewHouseForm list={list} setList={setList}/>}/>
         {/* <Route path="/houses" element={<MyListing /> }/> */}
         {/* <Route path="/houses/:id/Edit" element={<MyListing /> }/> */}
-        <Route path="/mylisting" element={<MyListing /> }/>
+        <Route path="/myListing" element={<MyListing /> }/>
         {/* <Route path="/search" element={<Search /> }/> */}
       </Routes>
     </>

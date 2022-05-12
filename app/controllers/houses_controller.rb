@@ -5,17 +5,23 @@ rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity
 # skip_before_action :verify_authenticity_token
 
     def index
-    render json: House.all
+        houses = House.all
+        # byebug
+        render json: houses
     end
 
     def create
-    house = House.create!(house_params)
-    render json: house
+        house = House.create!(house_params)
+        if house.valid?
+            render json: house
+        else
+            render json: { errors: user.errors.full_messages }, status: :unprocessable_entity
+        end
     end
 
     def show
-    house = find_house
-    render json: house
+        house = find_house
+        render json: house
     end
 
     def update
@@ -33,7 +39,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :render_unprocessable_entity
     private
     
     def house_params
-    params.permit(:address, :lotSizeAcres, :lotSizeSquareFeet, :listPrice, :bathroomsTotal, :bedroomsTotal)
+    params.permit(:street, :city, :state, :listPrice)
     end
 
     def find_house

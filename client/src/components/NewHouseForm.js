@@ -22,18 +22,18 @@ function NewHouseForm({list,setList}) {
   const { id } = useParams();
 
 
-const houseList = houses.map(house => {
-  return <option key={house.id} value={house.id}>{house.name}</option>
-})
+// const houseList = houses.map(house => {
+//   return <option key={house.id} value={house.id}>{house.name}</option>
+// })
 
 // Create conditional title
 const title = isEdit ? "Edit Your Listing" : "List a New House"
 
 //Create conditional submit button text
-const submit = isEdit ? "Update Listing" : "Add to Market"
+// const submit = isEdit ? "Update Listing" : "Add to Market"
 
 //Create conditional delete button
-const deleteButton = isEdit ? <button  type="button" onClick={handleDelete}>Delete</button> : null
+// const deleteButton = isEdit ? <button  type="button" onClick={handleDelete}>Delete</button> : null
 
 function handleChange(e) {
   setFormData({
@@ -45,7 +45,7 @@ function handleChange(e) {
 function handleSubmit(e) {
   console.log(formData)
   e.preventDefault()
-  fetch("/houses", {
+  fetch("/houses/create", {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
@@ -53,10 +53,12 @@ function handleSubmit(e) {
     body: JSON.stringify(formData)
   })
   .then(res => res.json())
-  .then(data => setList(data))
-  // .then(data => setHouses(data))
-  navigate("/")
-  console.log(houses)
+  // .then(data => console.log(data))
+  .then(data => {
+    setList([...list, data])
+    navigate("/")
+  })
+  // console.log(houses)
   // .finally(() => setLoading (false))
 }
 //   if (outlet.path === "/houses/:id/Edit") {

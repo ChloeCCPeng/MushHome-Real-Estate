@@ -70,7 +70,7 @@ function Home({setHouseToDisplay, list, setList}) {
       <FilterRender selectedLocation={selectedLocation} list={list} onDelete={onDelete} setHouseToDisplay={setHouseToDisplay}/>
         {/* <Search /> */}
         {/* <Account list={list} user={user} onWatch={onWatch} /> */}
-        <NewHouseForm list={list} setList={setList}/>
+        {/* <NewHouseForm list={list} setList={setList}/> */}
         {/* <Listing list={list} onDelete={onDelete}/> */}
         <HouseRenovationIdeas />
         {/* <HouseMarketReport />
