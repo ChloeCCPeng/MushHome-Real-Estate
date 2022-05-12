@@ -17,7 +17,7 @@ function Home({setHouseToDisplay, list, setList}) {
 
   const [user, setUser] = useState ([])
   const [watchedHouse, setWatchedHouse] = useState([])
-  // const [loading, setLoading] = useState(false)
+  const [loading, setLoading] = useState(false)
   //filter
   const [selectedLocation, setSelectedLocation] = useState("All")
   const [isError, setIsError] = useState(false)
@@ -31,9 +31,9 @@ function Home({setHouseToDisplay, list, setList}) {
   //   .finally(() => setLoading (false))
   // }, [])
 
-  // if (loading) {
-  //   return <div class="ring">Loading<span class="ring-span"></span></div>
-  // }
+  if (loading) {
+    return <div class="ring">Loading<span class="ring-span"></span></div>
+  }
 
   function onDelete(dHouse){
     const updatedList = list.filter(house =>house.id !== dHouse.id)
