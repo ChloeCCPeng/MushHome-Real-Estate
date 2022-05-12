@@ -1,6 +1,5 @@
 import React from 'react'
 
-
 function Footer() {
   return (
     <div class="rounded md:rounded-lg  ">
@@ -8,22 +7,34 @@ function Footer() {
           {/* <h1>Footer</h1>
               <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/" class="text-5xl" >LIKE THE IDEA? LET'S CONNECT </a>  */}
 
-          <div class="text-white bg-yellow-400 border-none rounded-tl-full text-xs w-3/4 text-center pt-10 pb-5 whitespace-nowrap">
+          <div class="text-white bg-yellow-400 border-none rounded-tl-full text-xs w-3/4 text-center pt-10 pb-5">
             <h1 class="text-black">Services </h1>
             <h1 class="text-black">Pre-Sale FAQs</h1>
             <h1 class="text-black">Legal Documents</h1>
           </div>
-          <div class="text-white bg-yellow-400 border-none text-xs w-3/4 text-center pt-10 pb-5 whitespace-nowrap">
+          <div class="text-white bg-yellow-400 border-none text-xs w-3/4 text-center pt-10 pb-5">
             <h1 class="text-black">About Us </h1>
-            <h1 class="text-black">Contact U</h1>
-            <h1 class="text-black">Legal Documents</h1>
+            <h1 class="text-black">Contact Us</h1>
           </div>
 
         </div>
+        {/* <div class="bg-yellow-400 inline-flex ">
+          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/">
+            <img id="linkedIn" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="linkedIn" width="30" height="30"/>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChloeCCPeng">
+            <img id="github" src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png" alt="github" width="30" height="30"/>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChloeCCPeng">
+            <img id="fb" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png" alt="facebook" width="30" height="30"/>
+          </a>
+          <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChloeCCPeng">
+            <img id="instagram" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png" alt="instagram" width="30" height="30"/>
+          </a>
+        </div> */}
         <div class="text-black bg-yellow-400 text-center text-xs pb-2">
-        
-            <h1 class="text-black">Web App Design: Chloe Peng   |   Logo Design: Jen Peng   |   © 2022 Chloe Peng.  All rights reserved.</h1>
-          </div>
+          <h1 class="text-black">Web App Design: Chloe Peng   |   Logo Design: Jen Peng   |   © 2022 Chloe Peng.  All rights reserved.</h1>
+        </div>
 
     </div>
   )
