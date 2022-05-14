@@ -16,18 +16,18 @@ function Footer() {
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">Contact Us</h1> </a>
         </div>
 
-      <div class="bg-yellow-400 inline-flex place-content-center">
+      <div class="bg-yellow-400 inline-flex pr-2 pt-20">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/">
-          <img id="linkedIn" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="linkedIn" width="30" height="30"/>
+          <img id="linkedIn" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/linkedin_black_logo_icon_147114.png" alt="linkedIn" width="50" height="50"/>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChloeCCPeng">
-          <img id="github" src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png" alt="github" width="30" height="30"/>
+          <img id="github" src="https://cdn.icon-icons.com/icons2/936/PNG/512/github-logo_icon-icons.com_73546.png" alt="github" width="50" height="50"/>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://github.com/ChloeCCPeng">
-          <img id="fb" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png" alt="facebook" width="30" height="30"/>
+          <img id="fb" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/facebook_black_logo_icon_147136.png" alt="facebook" width="50" height="50"/>
         </a>
         <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/chloepeng331/?hl=e">
-          <img id="instagram" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png" alt="instagram" width="30" height="30"/>
+          <img id="instagram" src="https://cdn.icon-icons.com/icons2/2428/PNG/512/instagram_black_logo_icon_147122.png" alt="instagram" width="50" height="50"/>
         </a>
       </div>
       </div>
