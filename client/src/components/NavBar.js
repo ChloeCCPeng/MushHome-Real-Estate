@@ -31,7 +31,7 @@ function NavBar({ user, setUser, handleLoginClick, newHouse}) {
         <Link class="static text-slate-200 px-10 float-right" to="/mortgage" exact>MORTGAGE</Link>
         <Link class="static text-slate-200 px-10 float-right" to="/account" exact newHouse={newHouse}>ACCOUNT</Link>
         {/* <Link class="static text-slate-200 px-10 float-right" to="/houseRenovationIdeas" exact>RENOVATION</Link> */}
-        <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link>
+        {/* <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link> */}
         <Link class="static text-slate-200 px-10 float-right"  exact to="/houses/new" >LIST A HOUSE!</Link>
     </div>
   );

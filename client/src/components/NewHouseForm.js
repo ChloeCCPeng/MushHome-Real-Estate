@@ -101,59 +101,59 @@ function handleDelete(e) {
           <form onSubmit={handleSubmit}>
               <div class="mb-2">
                   <label class="text-slate-400" >Image</label>
-                  <input type="text" class="bg-transparent" id="photo" name="photo" autoComplete="on" onChange={handleChange}/>
+                  <input type="text" class="bg-transparent text-slate-300" id="photo" name="photo" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400" >Address</label>
-                  <input required type="text" class="bg-transparent" id="street" name="street" autoComplete="on" onChange={handleChange}/>
+                  <input required type="text" class="bg-transparent text-slate-300" id="street" name="street" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">City</label>
-                  <input required type="text" class="bg-transparent" id="city" name="city" autoComplete="on" onChange={handleChange}/>
+                  <input required type="text" class="bg-transparent text-slate-300" id="city" name="city" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">State</label>
-                  <input required type="text" maxlength="2" class="bg-transparent" id="state" name="state" autoComplete="on" onChange={handleChange}/>
+                  <input required type="text" maxlength="2" class="bg-transparent text-slate-300" id="state" name="state" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Zip Code</label>
-                  <input required type="text" maxlength="10" class="bg-transparent" id="postcde" name="postcde" autoComplete="on" onChange={handleChange}/>
+                  <input required type="text" maxlength="10" class="bg-transparent text-slate-300" id="postcde" name="postcde" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">List Price</label>
-                  <input required type="number" class="bg-transparent" id="listPrice" name="listPrice" autoComplete="on" onChange={handleChange}/>
+                  <input required type="number" class="bg-transparent text-slate-300" id="listPrice" name="listPrice" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">lot Size Acres</label>
-                  <input required type="number" class="bg-transparent" id="lotSizeAcres" name="lotSizeAcres" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" class="bg-transparent text-slate-300" id="lotSizeAcres" name="lotSizeAcres" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400" >Bedrooms</label>
-                  <input required type="number" class="bg-transparent" id="bedroomsTotal" name="bedroomsTotal" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" class="bg-transparent text-slate-300" id="bedroomsTotal" name="bedroomsTotal" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Bathroom</label>
-                  <input required type="number" class="bg-transparent" id="bathroomsTotal" name="bathroomsTotal" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" class="bg-transparent text-slate-300" id="bathroomsTotal" name="bathroomsTotal" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Association Fee</label>
-                  <input type="number" class="bg-transparent" id="associationFee" name="associationFee" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" class="bg-transparent text-slate-300" id="associationFee" name="associationFee" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Fireplace</label>
-                  <input type="number" class="bg-transparent" id="fireplacesTotal" name="fireplacesTotal" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" class="bg-transparent text-slate-300" id="fireplacesTotal" name="fireplacesTotal" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Year Built</label>
-                  <input type="number" maxlength="4" class="bg-transparent" id="yearBuilt" name="yearBuilt" autoComplete="on" onChange={handleChange}/>
+                  <input type="number" maxlength="4" class="bg-transparent text-slate-300" id="yearBuilt" name="yearBuilt" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Flooring</label>
-                  <input type="text" class="bg-transparent" id="flooring" name="flooring" autoComplete="on" onChange={handleChange}/>
+                  <input type="text" class="bg-transparent text-slate-300" id="flooring" name="flooring" autoComplete="on" onChange={handleChange}/>
               </div>
               <div class="mb-2">
                   <label class="text-slate-400">Roof</label>
-                  <input type="text" class="bg-transparent" id="roof" name="roof" autoComplete="on" onChange={handleChange}/>
+                  <input type="text" class="bg-transparent text-slate-300" id="roof" name="roof" autoComplete="on" onChange={handleChange}/>
               </div>
               <button class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20" type="submit"  onChange={handleSubmit}>Submit</button>
               {/* <button class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20" type="submit"  onChange={handleChange}>Delete</button> */}
@@ -164,6 +164,3 @@ function handleDelete(e) {
 }
 
 export default NewHouseForm
-
-
-// <a target="_blank" rel="noopener noreferrer" class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20"href="https://www.bhg.com/home-improvement/remodeling/budget-remodels/home-renovation-on-a-budget-281474979570280/?" >View More</a> 

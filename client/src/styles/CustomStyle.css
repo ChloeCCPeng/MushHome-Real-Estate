@@ -1,5 +1,7 @@
-body {
-    color: #e9e9e9
+#root {
+    color: #e9e9e9;
+
+
 }
 
 input, select {
@@ -10,4 +12,9 @@ input, select {
 
 a{
     color: transparent
+}
+
+form {
+        margin-left: 25%;
+    margin-right: 25%;
 }
