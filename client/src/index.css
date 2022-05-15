@@ -168,10 +168,14 @@ h4, p {
 #mush {
   font-family: 'Abril Fatface', cursive;
   text-align: center;
-
+  font-size: 170%;
 }
 
-#home{
 
+.logo-white{
+  color: #e9e9e9;
 }
 
+.logo-yellow { 
+  color: #feb13b;
+}
