@@ -50,7 +50,7 @@ function Footer() {
       <div class="text-black bg-yellow-400 text-center text-xs">
         <div>    
         </div>
-        <h1 class="text-black">Web App Created By <a class="text-black" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/">Chloe Peng</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Logo Created By <a class="text-black" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sketchdoll/?hl=en">Jen Peng</a>  &nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp; © 2022 Chloe Peng.  All rights reserved.</h1>
+        <h1 class="text-black">Web App Creates By <a class="text-black font-bold" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/">Chloe Peng</a> &nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;Logo Created By <a class="text-black font-bold" target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/sketchdoll/?hl=en">Jen Peng</a>  &nbsp;&nbsp;&nbsp; |  &nbsp;&nbsp;&nbsp; © 2022 Chloe Peng.  All rights reserved.</h1>
       </div>
     </div>
   )
