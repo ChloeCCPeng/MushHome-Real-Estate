@@ -50,7 +50,7 @@ function Home({setHouseToDisplay, list, setList}) {
   function onUnWatch (uHouse){
     const updatedWatch = watchedHouse.filter(house => house.id !== uHouse.id)
     setWatchedHouse(updatedWatch)
-    console.log(uHouse)
+    // console.log(uHouse)
   }
 
   // filter function
