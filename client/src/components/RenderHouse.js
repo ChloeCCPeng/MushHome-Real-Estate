@@ -36,10 +36,7 @@ function RenderHouse({houseToDisplay, onDelete, setHouseToDisplay}) {
                 <h1 class="font-semibold pb-2">{houseToDisplay.city} {houseToDisplay.state} {houseToDisplay.postcde}</h1>
                 <h1 class="font-semibold pt-2">{houseToDisplay.street}</h1>
                 <div class="">
-                <img src="https://images.adsttc.com/media/images/5ecd/d4ac/b357/65c6/7300/009d/large_jpg/02C.jpg?1590547607" alt="house" 
-                class="w-full h-60 object-cover rounded-lg "
-                >
-                </img>
+                    <img class="w-full h-60 object-cover rounded-lg" src={houseToDisplay.photo}></img>
                 </div>
                 {/* <button class="float-left outline-yellow-400 material-icons" onClick={()=>onWatch(houseToDisplay)} > favorite_border</button> */}
                 <button class="float-left outline-yellow-400 material-icons"> favorite_border</button>
