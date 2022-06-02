@@ -70,7 +70,7 @@ puts " 💬 Creating messages "
 end
 
 puts " 🏡 Creating houses "
-100.times do
+500.times do
     House.create(
         # address: Faker::Address.full_address, 
         lotSizeAcres: rand(1..7), 
