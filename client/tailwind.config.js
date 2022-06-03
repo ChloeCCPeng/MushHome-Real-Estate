@@ -10,5 +10,12 @@ module.exports = {
       'desktop': '1280px',
       // => @media (min-width: 1280px) { ... }
     },
+
+      scale: {
+        '175': '1.75',
+      }
+
+
+
   }
 }
