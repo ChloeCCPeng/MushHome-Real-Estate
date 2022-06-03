@@ -9,7 +9,9 @@ function Filter({setSelectedLocation, onLocationChange, onWatch, onUnWatch, isWa
 
   return (
     <div class="relative flex justify-center pt-10 pb-10">
-      <h1 class="sticky text-xl" > <i class="fa-solid fa-location-dot"></i> What state are you looking for? </h1>
+      <h1 class="sticky text-xl" ><span class="material-icons text-2xl align-sub">
+travel_explore
+</span>  Which State Are Your Interested? </h1>&nbsp;
         <FormControl >
             <InputLabel id="select-label" class="text-slate-200 px-8"></InputLabel>
                 <Select
