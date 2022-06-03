@@ -155,7 +155,7 @@ function handleDelete(e) {
                   <label class="text-slate-400">Roof</label>
                   <input type="text" class="bg-transparent text-slate-300" id="roof" name="roof" autoComplete="on" onChange={handleChange}/>
               </div>
-              <button class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20" type="submit"  onChange={handleSubmit}>Submit</button>
+              <button class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20 hover:bg-yellow-600 duration-300 hover:scale-110" type="submit"  onChange={handleSubmit}>Submit</button>
               {/* <button class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20" type="submit"  onChange={handleChange}>Delete</button> */}
           </form>
         </div>
