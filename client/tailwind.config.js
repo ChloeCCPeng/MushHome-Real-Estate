@@ -11,11 +11,5 @@ module.exports = {
       // => @media (min-width: 1280px) { ... }
     },
 
-      scale: {
-        '175': '1.75',
-      }
-
-
-
   }
 }
