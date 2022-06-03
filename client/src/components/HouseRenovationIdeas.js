@@ -21,7 +21,9 @@ function HouseRenovationIdeas() {
             </h3>
             <p class="mt-2 text-slate-300" >Don’t underestimate the power of a front door. People make up their minds in the first seven seconds of entering a house,” says ERA broker Kristin Willens. The front door is the primary and ultimate transition space of your home. It’s also a critical part of any visitor’s first impression. Spruce up this exterior entry by painting your front door, upgrading your house numbers, replacing your front porch light fixture, tossing down a new door mat, or simply conducting a thorough overall cleaning of the front of your home. Why? Because “a welcoming entrance will definitely increase your home’s bottom line” – Diynetwork.</p>
             <br></br>
-            <a target="_blank" rel="noopener noreferrer" href="https://www.homeadvisor.com/sem/task.Deck-or-Porch-Build-or-Replace.40022.html?kw_id=deck%20builders&c_id=589147235727&dev_id=c&entry_point_id=35487995&iv_=__iv_p_1_a_16000899726_g_134445583386_w_kwd-13278952_h_9052492_ii__d_c_v__n_g_c_589147235727_k_deck%20builders_m_b_l__t__e__r__vi__&m=cammgsemha&gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L-GgAPoAvA1shzCGWn-qCjoubsPc-SMQzJFNcUUkPySXWYbuss_ckEaAvrbEALw_wcB" class="w-6 h-6 mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20 hover:bg-yellow-600 duration-300 hover:scale-110"  >Find Local Contractor</a> 
+            <a target="_blank" rel="noopener noreferrer" href="https://www.homeadvisor.com/sem/task.Deck-or-Porch-Build-or-Replace.40022.html?kw_id=deck%20builders&c_id=589147235727&dev_id=c&entry_point_id=35487995&iv_=__iv_p_1_a_16000899726_g_134445583386_w_kwd-13278952_h_9052492_ii__d_c_v__n_g_c_589147235727_k_deck%20builders_m_b_l__t__e__r__vi__&m=cammgsemha&gclid=Cj0KCQjwmuiTBhDoARIsAPiv6L-GgAPoAvA1shzCGWn-qCjoubsPc-SMQzJFNcUUkPySXWYbuss_ckEaAvrbEALw_wcB" class="w-6 h-6 mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl mb-20 hover:bg-yellow-600 duration-300 "  ><span class="material-icons text-4xl align-middle">
+double_arrow
+</span>Find Local Contractor</a> 
           </div>
         </div>
         <div sclass="mt-15 md:flex bg-black">
@@ -32,7 +34,9 @@ function HouseRenovationIdeas() {
             <h3 class="uppercase tracking-wide text-xl  font-semibold text-stone-50 mb-5">19 Budget-Friendly Home Renovation Ideas for Every Room in Your House </h3>
             <p class="mt-2" >Say "home renovation" and many people think "too expensive." But revamping your spaces doesn't have to cost a lot of money. Here are 19 ideas for upgrades perfect for a home renovation on a budget.</p>
             <br></br>
-            <a target="_blank" rel="noopener noreferrer" class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl fa-solid fa-arrow-right mb-20 hover:bg-yellow-600 duration-300 hover:scale-110"href="https://www.bhg.com/home-improvement/remodeling/budget-remodels/home-renovation-on-a-budget-281474979570280/?" >View More</a> 
+            <a target="_blank" rel="noopener noreferrer" class="mt-7 ml-25 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-xl mb-20 hover:bg-yellow-600 duration-300 "href="https://www.bhg.com/home-improvement/remodeling/budget-remodels/home-renovation-on-a-budget-281474979570280/?" ><span class="material-icons text-4xl align-middle">
+double_arrow
+</span>View More</a> 
           </div>
         </div>
       </div>
