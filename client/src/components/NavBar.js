@@ -28,8 +28,14 @@ function NavBar({ user, setUser, handleLoginClick, newHouse}) {
 </button>
         }
       </nav>
-        <Link class="static text-slate-200 px-10 float-right" to="/mortgage" exact>MORTGAGE</Link>
-        <Link class="static text-slate-200 px-10 float-right" to="/account" exact newHouse={newHouse}>ACCOUNT</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/mortgage" exact><span class="material-icons text-2xl align-sub">
+real_estate_agent
+</span>
+MORTGAGE</Link>
+        <Link class="static text-slate-200 px-10 float-right" to="/account" exact newHouse={newHouse}><span class="material-icons text-2xl align-sub">
+manage_accounts
+</span>
+ACCOUNT</Link>
         {/* <Link class="static text-slate-200 px-10 float-right" to="/houseRenovationIdeas" exact>RENOVATION</Link> */}
         {/* <Link class="static text-slate-200 px-10 float-right"  exact to="/" >HOME</Link> */}
         <Link class="static text-slate-200 px-10 float-right"  exact to="/houses/new" ><span class="material-icons text-2xl align-sub">
