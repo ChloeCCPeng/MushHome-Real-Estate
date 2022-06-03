@@ -11,7 +11,7 @@ import Tools from "./components/Tools";
 import NewHouseForm from "./components/NewHouseForm";
 import Mortgage from "./components/Mortgage";
 import MyListing from "./components/MyListing";
-import Presale from "./components/Presale";
+import SaleFAQ from "./components/SaleFAQ";
 
 
 function App() {
@@ -64,7 +64,7 @@ function App() {
         {/* <Route path="/houses/:id/Edit" element={<MyListing /> }/> */}
         <Route path="/myListing" element={<MyListing /> }/>
         {/* <Route path="/search" element={<Search /> }/> */}
-        <Route path="/presalefaq" element={<Presale />}/>
+        <Route path="/salefaq" element={<SaleFAQ/>}/>
       </Routes>
     </>
   );
