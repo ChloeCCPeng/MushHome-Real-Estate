@@ -49,17 +49,17 @@ function HouseDetail({houseToDisplay, onDelete}) {
             <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
             <h4>Fireplaces: {houseToDisplay.fireplacesTotal}</h4>
             <h4>Year Built: {houseToDisplay.yearBuilt}</h4>
-            <h4>Property Type: {houseToDisplay.propertymiddleType}</h4>
+            <h4>Property Type: {houseToDisplay.propertytopType}</h4>
             <h4>Frontage Type: {houseToDisplay.frontageType}</h4>
             <h4>Lot Size: {houseToDisplay.lotSizeAcres}</h4>
             <h4 class="mb-6">Description: {houseToDisplay.publicRemarks} </h4>
             <div class="flex justify-center ">
-              <a href="mailto: {houseToDisplay.email}" class="max-h-11 whitespace-nowrap mt-6 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300 hover:scale-110" > <span class="material-icons text-2xl align-middle">mail</span> Contact Seller </a> 
-              <a href="/" class="max-h-11 my-6 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300 hover:scale-110" > <span class="material-icons text-2xl align-middle">search</span>
+              <a href="mailto: {houseToDisplay.email}" class="max-h-11 whitespace-nowrap mt-6 mx-6 bg-yellow-400 text-black text-base leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300 hover:scale-110" > <span class="material-icons text-4xl align-middle">mail</span> Contact Seller </a> 
+              <a href="/" class="max-h-11 my-6 mx-6 bg-yellow-400 text-black text-base leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300 hover:scale-110" > <span class="material-icons text-4xl align-middle">search</span>
  View More Houses </a> 
-              <a href="mailto: {houseToDisplay.email}" class=" max-h-11 whitespace-nowrap mt-6 pb-0 mx-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300s hover:scale-110" ><span class="material-icons text-2xl align-middle">local_offer</span> Make an Offer</a> 
+              <a href="mailto: {houseToDisplay.email}" class="max-h-11 whitespace-nowrap mt-6 mx-6 bg-yellow-400 text-black text-base leading-6 font-medium py-2 px-3 rounded-lg hover:bg-yellow-600 duration-300 hover:scale-110" > <span class="material-icons text-4xl align-middle">local_offer</span> Make an Offer </a> 
             </div>
-            {/* <button class="mt-6 bg-yellow-400 text-black text-sm leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
+            {/* <button class="mt-6 bg-yellow-400 text-black text-base leading-6 font-medium py-2 px-3 rounded-lg" onClick={onDelete} handleDelete={handleDelete}><i class="material-icons">
             highlight_off title="View More" onClick={<Home />}
             </i> View More </button>  */}
             {/* <button class="float-left text-yellow-400 material-icons" onClick={()=>onWatch(houseToDisplay)}> favorite_border</button> */}

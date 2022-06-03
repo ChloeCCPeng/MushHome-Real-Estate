@@ -9,7 +9,7 @@ function Filter({setSelectedLocation, onLocationChange, onWatch, onUnWatch, isWa
 
   return (
     <div class="relative flex justify-center pt-10 pb-10">
-      <h1 class="sticky text-xl" ><span class="material-icons text-2xl align-sub">
+      <h1 class="sticky text-xl" ><span class="material-icons text-3xl align-sub">
 travel_explore
 </span>  Which State Are Your Interested? </h1>&nbsp;
         <FormControl >
