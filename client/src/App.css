@@ -60,3 +60,7 @@ p {
   animation-name: bounce; 
 }
 
+section { 
+  padding-left: 150px;
+  margin-left: 150px;
+}
