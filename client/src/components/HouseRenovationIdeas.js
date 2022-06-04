@@ -26,7 +26,7 @@ double_arrow
 </span>Find Local Contractor</a> 
           </div>
         </div>
-        <div sclass="mt-15 md:flex bg-black">
+        <div class="mt-15 md:flex bg-black">
           <div class="p-8 ">
             <div class="min-w-fit">
             <img src="https://mobileimages.lowes.com/marketingimages/cdb03777-b1e4-49ab-94ae-4a3d51591c22/kitchen-countertops-og.png" alt="House Remodel Tip" class=" mt-40 mb-7 min-w-full object-cover"></img>
