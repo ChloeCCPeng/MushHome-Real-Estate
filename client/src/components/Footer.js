@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from "react-router-dom";
+
 
 function Footer() {
   return (
@@ -8,9 +10,10 @@ function Footer() {
             <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/" class="text-5xl" >LIKE THE IDEA? LET'S CONNECT </a>  */}
         <div class="bg-yellow-400 border-none rounded-tl-full text-xs w-3/4 text-center pt-10 pb-5">
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">Services</h1> </a>
-          <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">Pre-Sale FAQs</h1> </a>
+          <Link class="text-black" to="/salefaq" exact>Sale FAQs</Link>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">Legal Documents</h1> </a>
         </div>
+
         <div class="text-white bg-yellow-400 border-none text-xs w-3/4 text-center pt-10 pb-5">
         <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">About Us</h1> </a>
           <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/chloepeng-software-developer/"><h1 class="text-black">Contact Us</h1> </a>
