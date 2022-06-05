@@ -9,7 +9,7 @@
 *   Setup
 
 
-#Introduction
+#   Introduction
 A Real Estate platform that helps buyers purchase houses directly from homeowners
 
 
