@@ -21,15 +21,15 @@ link: https://www.figma.com/file/j34HP40p8JQfM6Ae2mg6mW/Untitled?node-id=0%3A1
 #   Project Demo 
 
 #   Setup
-bundle i
-rails db:create
-npm install --prefix client
-rails s --> to start back end
-npm start --prefix client --> to start front end
+- bundle i
+- rails db:create
+- npm install --prefix client
+- rails s --> to start back end
+- npm start --prefix client --> to start front end
 
 * To kill postgreSQL: 
-sudo lsof -i :5432
-sudo pkill -u postgres
+- sudo lsof -i :5432
+- sudo pkill -u postgres
 
 #   Features 
 
