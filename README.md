@@ -43,6 +43,6 @@ link: https://www.figma.com/file/j34HP40p8JQfM6Ae2mg6mW/Untitled?node-id=0%3A1
 - FAQs
 
 #   Contact 
-[www.](https://www.linkedin.com/in/chloepeng-software-developer/)
+[www.linkedin.com/in/chloepeng-software-developer/]
 
 #   License
