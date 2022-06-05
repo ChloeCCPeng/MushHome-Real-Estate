@@ -2,11 +2,10 @@
 
 # Table of Contents 
 *   [Introduuction](#introduction)
-
-*   Features 
-*   Wireframe
-*   Project Demo 
-*   Setup
+*   [Features](#features)
+*   [Wireframe](#wireframe)
+*   [Project Demo](#project-demo)
+*   [Setup](#setup)
 
 
 #   Introduction
