@@ -1,14 +1,15 @@
 # Real Estate App
 
 # Table of Contents 
-*   [Introduuction] (#introduction)
+*   [Introduuction](#introduction)
+
 *   Features 
 *   Wireframe
 *   Project Demo 
 *   Setup
 
 
-#   Introduction
+#Introduction
 A Real Estate platform that helps buyers purchase houses directly from homeowners
 
 
