@@ -1,7 +1,7 @@
 # Real Estate App
 
 # Table of Contents 
-*   Introduuction (Introduction)
+*   [Introduuction] (#introduction)
 *   Features 
 *   Wireframe
 *   Project Demo 
