@@ -1,4 +1,5 @@
 # Real Estate App
+*Created by: Chloe Peng* 
 
 # Table of Contents 
 *   [Introduction](#introduction)
