@@ -2,7 +2,7 @@
 *Created by: Chloe Peng* 
 
 #   Click for Project Demo 
-[![Energy Booster](https://user-images.githubusercontent.com/61214246/172442543-0de5a240-3435-43e9-be36-9adf064d6797.png
+[![Mush|Home](https://user-images.githubusercontent.com/61214246/172442543-0de5a240-3435-43e9-be36-9adf064d6797.png
 )](https://www.youtube.com/watch?v=1D11cGz11dE&t=15s&ab_channel=ChloePeng)
 
 
